@@ -1,0 +1,2734 @@
+Targets
+    Occurrences of '@since 9' in Project and Libraries with mask '*.java'
+Found Occurrences  (1,288 usages found)
+    Usage in comments  (1,281 usages found)
+        < 9-ea >  (1,281 usages found)
+            com.sun.jarsigner  (1 usage found)
+                ContentSignerParameters.java  (1 usage found)
+                    getTSADigestAlg()  (1 usage found)
+                        76     * @since 9
+            com.sun.javafx.css  (1 usage found)
+                CascadingStyle.java  (1 usage found)
+                    41 * @since 9
+            com.sun.javafx.scene.control.inputmap  (2 usages found)
+                InputMap.java  (1 usage found)
+                    63 * @since 9
+                KeyBinding.java  (1 usage found)
+                    50 * @since 9
+            com.sun.jdi  (3 usages found)
+                ReferenceType.java  (1 usage found)
+                    module()  (1 usage found)
+                        136     * @since 9
+                VirtualMachine.java  (2 usages found)
+                    allModules()  (1 usage found)
+                        95     * @since 9
+                    canGetModuleInfo()  (1 usage found)
+                        774     * @since 9
+            com.sun.management  (1 usage found)
+                VMOption.java  (1 usage found)
+                    99         * @since 9
+            com.sun.security.jgss  (2 usages found)
+                InquireType.java  (2 usages found)
+                    56     * @since 9
+                    86     * @since 9
+            com.sun.source.doctree  (5 usages found)
+                DocCommentTree.java  (1 usage found)
+                    getFullBody()  (1 usage found)
+                        51     * @since 9
+                HiddenTree.java  (1 usage found)
+                    37 * @since 9
+                IndexTree.java  (1 usage found)
+                    36 * @since 9
+                ProvidesTree.java  (1 usage found)
+                    37 * @since 9
+                UsesTree.java  (1 usage found)
+                    37 * @since 9
+            com.sun.source.tree  (9 usages found)
+                CompilationUnitTree.java  (1 usage found)
+                    getPackage()  (1 usage found)
+                        61     * @since 9
+                ExportsTree.java  (1 usage found)
+                    39 * @since 9
+                ModuleTree.java  (1 usage found)
+                    42 * @since 9
+                OpensTree.java  (1 usage found)
+                    39 * @since 9
+                PackageTree.java  (1 usage found)
+                    36 * @since 9
+                ProvidesTree.java  (1 usage found)
+                    38 * @since 9
+                RequiresTree.java  (1 usage found)
+                    38 * @since 9
+                Tree.java  (1 usage found)
+                    213         * @since 9
+                UsesTree.java  (1 usage found)
+                    37 * @since 9
+            com.sun.source.util  (10 usages found)
+                DocTreeFactory.java  (1 usage found)
+                    75 *  @since 9
+                DocTrees.java  (8 usages found)
+                    getBreakIterator()  (1 usage found)
+                        75     * @since 9
+                    getDocCommentTree(Element)  (1 usage found)
+                        93     * @since 9
+                    getDocCommentTree(Element, String)  (1 usage found)
+                        124     * @since 9
+                    getDocCommentTree(FileObject)  (1 usage found)
+                        107     * @since 9
+                    getDocTreeFactory()  (1 usage found)
+                        197     * @since 9
+                    getDocTreePath(FileObject)  (1 usage found)
+                        138     * @since 9
+                    getFirstSentence(List<? extends DocTree>)  (1 usage found)
+                        157     * @since 9
+                    setBreakIterator(BreakIterator)  (1 usage found)
+                        189     * @since 9
+                TaskEvent.java  (1 usage found)
+                    75         * @since 9
+            com.sun.tools.attach  (1 usage found)
+                AttachOperationFailedException.java  (1 usage found)
+                    38 * @since 9
+            com.sun.tools.javac.main  (1 usage found)
+                JavacToolProvider.java  (1 usage found)
+                    35 * @since 9
+            java.awt  (48 usages found)
+                Component.java  (4 usages found)
+                    requestFocus(boolean, Cause)  (1 usage found)
+                        7690     * @since 9
+                    requestFocus(Cause)  (1 usage found)
+                        7556     * @since 9
+                    requestFocusInWindow(Cause)  (1 usage found)
+                        7794     * @since 9
+                    setMixingCutoutShape(Shape)  (1 usage found)
+                        10416     * @since 9
+                Desktop.java  (35 usages found)
+                    addAppEventListener(SystemEventListener)  (1 usage found)
+                        682     * @since 9
+                    browseFileDirectory(File)  (1 usage found)
+                        1018     * @since 9
+                    disableSuddenTermination()  (1 usage found)
+                        943     * @since 9
+                    enableSuddenTermination()  (1 usage found)
+                        922     * @since 9
+                    moveToTrash(File)  (1 usage found)
+                        1041     * @since 9
+                    openHelpViewer()  (1 usage found)
+                        980     * @since 9
+                    removeAppEventListener(SystemEventListener)  (1 usage found)
+                        709     * @since 9
+                    requestForeground(boolean)  (1 usage found)
+                        961     * @since 9
+                    setAboutHandler(AboutHandler)  (1 usage found)
+                        732     * @since 9
+                    setDefaultMenuBar(JMenuBar)  (1 usage found)
+                        998     * @since 9
+                    setOpenFileHandler(OpenFilesHandler)  (1 usage found)
+                        785     * @since 9
+                    setOpenURIHandler(OpenURIHandler)  (1 usage found)
+                        849     * @since 9
+                    setPreferencesHandler(PreferencesHandler)  (1 usage found)
+                        755     * @since 9
+                    setPrintFileHandler(PrintFilesHandler)  (1 usage found)
+                        814     * @since 9
+                    setQuitHandler(QuitHandler)  (1 usage found)
+                        872     * @since 9
+                    setQuitStrategy(QuitStrategy)  (1 usage found)
+                        893     * @since 9
+                    130         * @since 9
+                    137         * @since 9
+                    144         * @since 9
+                    151         * @since 9
+                    158         * @since 9
+                    165         * @since 9
+                    172         * @since 9
+                    179         * @since 9
+                    186         * @since 9
+                    193         * @since 9
+                    200         * @since 9
+                    207         * @since 9
+                    214         * @since 9
+                    221         * @since 9
+                    228         * @since 9
+                    235         * @since 9
+                    242         * @since 9
+                    249         * @since 9
+                    256         * @since 9
+                Font.java  (3 usages found)
+                    createFonts(File)  (1 usage found)
+                        1000     * @since 9
+                    createFonts(InputStream)  (1 usage found)
+                        927     * @since 9
+                    textRequiresLayout(char[], int, int)  (1 usage found)
+                        802     * @since 9
+                RenderingHints.java  (5 usages found)
+                    968     * @since 9
+                    979     * @since 9
+                    989     * @since 9
+                    1000     * @since 9
+                    1010     * @since 9
+                Taskbar.java  (1 usage found)
+                    48 * @since 9
+            java.awt.desktop  (29 usages found)
+                AboutEvent.java  (1 usage found)
+                    34 * @since 9
+                AboutHandler.java  (1 usage found)
+                    34 * @since 9
+                AppEvent.java  (1 usage found)
+                    35 * @since 9
+                AppForegroundEvent.java  (1 usage found)
+                    36 * @since 9
+                AppForegroundListener.java  (1 usage found)
+                    34 * @since 9
+                AppHiddenEvent.java  (1 usage found)
+                    35 * @since 9
+                AppHiddenListener.java  (1 usage found)
+                    33 * @since 9
+                AppReopenedEvent.java  (1 usage found)
+                    34 * @since 9
+                AppReopenedListener.java  (1 usage found)
+                    33 * @since 9
+                FilesEvent.java  (1 usage found)
+                    36 * @since 9
+                OpenFilesEvent.java  (1 usage found)
+                    37 * @since 9
+                OpenFilesHandler.java  (1 usage found)
+                    34 * @since 9
+                OpenURIEvent.java  (1 usage found)
+                    36 * @since 9
+                OpenURIHandler.java  (1 usage found)
+                    33 * @since 9
+                PreferencesEvent.java  (1 usage found)
+                    34 * @since 9
+                PreferencesHandler.java  (1 usage found)
+                    33 * @since 9
+                PrintFilesEvent.java  (1 usage found)
+                    37 * @since 9
+                PrintFilesHandler.java  (1 usage found)
+                    33 * @since 9
+                QuitEvent.java  (1 usage found)
+                    33 * @since 9
+                QuitHandler.java  (1 usage found)
+                    34 * @since 9
+                QuitResponse.java  (1 usage found)
+                    35 * @since 9
+                QuitStrategy.java  (1 usage found)
+                    36 * @since 9
+                ScreenSleepEvent.java  (1 usage found)
+                    34 * @since 9
+                ScreenSleepListener.java  (1 usage found)
+                    33 * @since 9
+                SystemEventListener.java  (1 usage found)
+                    37 * @since 9
+                SystemSleepEvent.java  (1 usage found)
+                    34 * @since 9
+                SystemSleepListener.java  (1 usage found)
+                    36 * @since 9
+                UserSessionEvent.java  (1 usage found)
+                    35 * @since 9
+                UserSessionListener.java  (1 usage found)
+                    42 * @since 9
+            java.awt.event  (5 usages found)
+                FocusEvent.java  (5 usages found)
+                    FocusEvent(Component, int, boolean, Component, Cause)  (1 usage found)
+                        258     * @since 9
+                    getCause()  (1 usage found)
+                        370     * @since 9
+                    readResolve()  (1 usage found)
+                        386     * @since 9
+                    81     * @since 9
+                    156     * @since 9
+            java.awt.font  (2 usages found)
+                NumericShaper.java  (2 usages found)
+                    324         * @since 9
+                    329         * @since 9
+            java.awt.image  (12 usages found)
+                AbstractMultiResolutionImage.java  (6 usages found)
+                    getBaseImage()  (1 usage found)
+                        143     * @since 9
+                    getHeight(ImageObserver)  (1 usage found)
+                        88     * @since 9
+                    getProperty(String, ImageObserver)  (1 usage found)
+                        130     * @since 9
+                    getSource()  (1 usage found)
+                        102     * @since 9
+                    getWidth(ImageObserver)  (1 usage found)
+                        74     * @since 9
+                    62 * @since 9
+                BaseMultiResolutionImage.java  (3 usages found)
+                    BaseMultiResolutionImage(Image...)  (1 usage found)
+                        69     * @since 9
+                    BaseMultiResolutionImage(int, Image...)  (1 usage found)
+                        89     * @since 9
+                    53 * @since 9
+                MultiResolutionImage.java  (3 usages found)
+                    getResolutionVariant(double, double)  (1 usage found)
+                        70     * @since 9
+                    getResolutionVariants()  (1 usage found)
+                        81     * @since 9
+                    55 * @since 9
+            java.beans  (4 usages found)
+                BeanProperty.java  (1 usage found)
+                    45 * @since 9
+                IndexedPropertyDescriptor.java  (1 usage found)
+                    IndexedPropertyDescriptor(Entry<String, PropertyInfo>, boolean)  (1 usage found)
+                        155     * @since 9
+                JavaBean.java  (1 usage found)
+                    42 * @since 9
+                PropertyDescriptor.java  (1 usage found)
+                    PropertyDescriptor(Entry<String, PropertyInfo>, boolean)  (1 usage found)
+                        153     * @since 9
+            java.io  (11 usages found)
+                InputStream.java  (3 usages found)
+                    readAllBytes()  (1 usage found)
+                        231     * @since 9
+                    readNBytes(byte[], int, int)  (1 usage found)
+                        301     * @since 9
+                    transferTo(OutputStream)  (1 usage found)
+                        516     * @since 9
+                ObjectInputFilter.java  (5 usages found)
+                    checkInput(FilterInfo)  (1 usage found)
+                        107     * @since 9
+                    90 * @since 9
+                    114     * @since 9
+                    172     * @since 9
+                    209     * @since 9
+                ObjectInputStream.java  (2 usages found)
+                    getObjectInputFilter()  (1 usage found)
+                        1155     * @since 9
+                    setObjectInputFilter(ObjectInputFilter)  (1 usage found)
+                        1228     * @since 9
+                ObjectStreamConstants.java  (1 usage found)
+                    207     * @since 9
+            java.lang  (131 usages found)
+                AbstractStringBuilder.java  (2 usages found)
+                    chars()  (1 usage found)
+                        1552     * @since 9
+                    codePoints()  (1 usage found)
+                        1576     * @since 9
+                Byte.java  (1 usage found)
+                    compareUnsigned(byte, byte)  (1 usage found)
+                        487     * @since 9
+                Character.java  (76 usages found)
+                    codePointOf(String)  (1 usage found)
+                        10193     * @since 9
+                    496     * @since 9
+                    502     * @since 9
+                    508     * @since 9
+                    514     * @since 9
+                    2593         * @since 9
+                    2602         * @since 9
+                    2611         * @since 9
+                    2620         * @since 9
+                    2629         * @since 9
+                    2638         * @since 9
+                    2645         * @since 9
+                    2654         * @since 9
+                    2663         * @since 9
+                    2670         * @since 9
+                    2677         * @since 9
+                    2686         * @since 9
+                    2693         * @since 9
+                    2702         * @since 9
+                    2709         * @since 9
+                    2718         * @since 9
+                    2725         * @since 9
+                    2732         * @since 9
+                    2739         * @since 9
+                    2746         * @since 9
+                    2753         * @since 9
+                    2760         * @since 9
+                    2769         * @since 9
+                    2778         * @since 9
+                    2785         * @since 9
+                    2794         * @since 9
+                    2803         * @since 9
+                    2810         * @since 9
+                    2819         * @since 9
+                    2828         * @since 9
+                    2837         * @since 9
+                    2846         * @since 9
+                    2855         * @since 9
+                    2864         * @since 9
+                    2871         * @since 9
+                    2880         * @since 9
+                    2887         * @since 9
+                    2894         * @since 9
+                    2903         * @since 9
+                    2912         * @since 9
+                    2922         * @since 9
+                    2932         * @since 9
+                    4192         * @since 9
+                    4198         * @since 9
+                    4204         * @since 9
+                    4210         * @since 9
+                    4216         * @since 9
+                    4222         * @since 9
+                    4228         * @since 9
+                    4234         * @since 9
+                    4240         * @since 9
+                    4246         * @since 9
+                    4252         * @since 9
+                    4258         * @since 9
+                    4264         * @since 9
+                    4270         * @since 9
+                    4276         * @since 9
+                    4282         * @since 9
+                    4288         * @since 9
+                    4294         * @since 9
+                    4300         * @since 9
+                    4306         * @since 9
+                    4312         * @since 9
+                    4318         * @since 9
+                    4324         * @since 9
+                    4330         * @since 9
+                    4336         * @since 9
+                    4342         * @since 9
+                    4348         * @since 9
+                    4354         * @since 9
+                    4360         * @since 9
+                Class.java  (3 usages found)
+                    forName(Module, String)  (1 usage found)
+                        427     * @since 9
+                    getModule()  (1 usage found)
+                        820     * @since 9
+                    getPackageName()  (1 usage found)
+                        958     * @since 9
+                ClassLoader.java  (5 usages found)
+                    findClass(String, String)  (1 usage found)
+                        712     * @since 9
+                    findResource(String, String)  (1 usage found)
+                        1294     * @since 9
+                    getName()  (1 usage found)
+                        442     * @since 9
+                    getPlatformClassLoader()  (1 usage found)
+                        1774     * @since 9
+                    getUnnamedModule()  (1 usage found)
+                        1751     * @since 9
+                Deprecated.java  (2 usages found)
+                    forRemoval()  (1 usage found)
+                        100     * @since 9
+                    since()  (1 usage found)
+                        91     * @since 9
+                IndexOutOfBoundsException.java  (1 usage found)
+                    IndexOutOfBoundsException(int)  (1 usage found)
+                        65     * @since 9
+                Math.java  (5 usages found)
+                    floorDiv(long, int)  (1 usage found)
+                        1189     * @since 9
+                    floorMod(long, int)  (1 usage found)
+                        1297     * @since 9
+                    fma(double, double, double)  (1 usage found)
+                        1627     * @since 9
+                    fma(float, float, float)  (1 usage found)
+                        1744     * @since 9
+                    multiplyExact(long, int)  (1 usage found)
+                        919     * @since 9
+                Process.java  (7 usages found)
+                    children()  (1 usage found)
+                        519     * @since 9
+                    descendants()  (1 usage found)
+                        545     * @since 9
+                    getPid()  (1 usage found)
+                        343     * @since 9
+                    info()  (1 usage found)
+                        494     * @since 9
+                    onExit()  (1 usage found)
+                        412     * @since 9
+                    supportsNormalTermination()  (1 usage found)
+                        307     * @since 9
+                    toHandle()  (1 usage found)
+                        474     * @since 9
+                ProcessBuilder.java  (1 usage found)
+                    557         * @since 9
+                ProcessHandle.java  (2 usages found)
+                    92 * @since 9
+                    218     * @since 9
+                ProcessHandleImpl.java  (2 usages found)
+                    isAlive()  (1 usage found)
+                        345     * @since 9
+                    51 * @since 9
+                Short.java  (1 usage found)
+                    compareUnsigned(short, short)  (1 usage found)
+                        492     * @since 9
+                StackTraceElement.java  (4 usages found)
+                    getClassLoaderName()  (1 usage found)
+                        218     * @since 9
+                    getModuleName()  (1 usage found)
+                        189     * @since 9
+                    getModuleVersion()  (1 usage found)
+                        203     * @since 9
+                    StackTraceElement(String, String, String, String, String, String, int)  (1 usage found)
+                        130     * @since 9
+                StackWalker.java  (3 usages found)
+                    84 * @since 9
+                    95     * @since 9
+                    195     * @since 9
+                StrictMath.java  (7 usages found)
+                    floorDiv(long, int)  (1 usage found)
+                        920     * @since 9
+                    floorMod(long, int)  (1 usage found)
+                        999     * @since 9
+                    fma(double, double, double)  (1 usage found)
+                        1292     * @since 9
+                    fma(float, float, float)  (1 usage found)
+                        1346     * @since 9
+                    multiplyExact(long, int)  (1 usage found)
+                        816     * @since 9
+                    multiplyFull(int, int)  (1 usage found)
+                        858     * @since 9
+                    multiplyHigh(long, long)  (1 usage found)
+                        872     * @since 9
+                String.java  (2 usages found)
+                    chars()  (1 usage found)
+                        2675     * @since 9
+                    codePoints()  (1 usage found)
+                        2695     * @since 9
+                System.java  (5 usages found)
+                    getLogger(String)  (1 usage found)
+                        1582     * @since 9
+                    getLogger(String, ResourceBundle)  (1 usage found)
+                        1622     * @since 9
+                    1007     * @since 9
+                    1055         * @since 9
+                    1420     * @since 9
+                Thread.java  (2 usages found)
+                    onSpinWait()  (1 usage found)
+                        377     * @since 9
+                    Thread(ThreadGroup, Runnable, String, long, boolean)  (1 usage found)
+                        770     * @since 9
+            java.lang.annotation  (1 usage found)
+                ElementType.java  (1 usage found)
+                    115     * @since 9
+            java.lang.instrument  (1 usage found)
+                Instrumentation.java  (1 usage found)
+                    redefineModule(Module, Set<Module>, Map<String, Set<Module>>, Map<String, Set<Module>>, Set<Class<?>>, Map<Class<?>, List<Class<?>>>)  (1 usage found)
+                        716     * @since 9
+            java.lang.invoke  (33 usages found)
+                MethodHandle.java  (3 usages found)
+                    asCollector(int, Class<?>, int)  (1 usage found)
+                        1127     * @since 9
+                    asSpreader(int, Class<?>, int)  (1 usage found)
+                        919     * @since 9
+                    withVarargs(boolean)  (1 usage found)
+                        993      * @since 9
+                MethodHandles.java  (27 usages found)
+                    accessClass(Class<?>)  (1 usage found)
+                        1154         * @since 9
+                    arrayConstructor(Class<?>)  (1 usage found)
+                        2403     * @since 9
+                    arrayElementVarHandle(Class<?>)  (1 usage found)
+                        2508     * @since 9
+                    arrayLength(Class<?>)  (1 usage found)
+                        2423     * @since 9
+                    byteArrayViewVarHandle(Class<?>, ByteOrder)  (1 usage found)
+                        2588     * @since 9
+                    byteBufferViewVarHandle(Class<?>, ByteOrder)  (1 usage found)
+                        2675     * @since 9
+                    countedLoop(MethodHandle, MethodHandle, MethodHandle)  (1 usage found)
+                        5201     * @since 9
+                    countedLoop(MethodHandle, MethodHandle, MethodHandle, MethodHandle)  (1 usage found)
+                        5326     * @since 9
+                    doWhileLoop(MethodHandle, MethodHandle, MethodHandle)  (1 usage found)
+                        5017     * @since 9
+                    dropArgumentsToMatch(MethodHandle, int, List<Class<?>>, int)  (1 usage found)
+                        3584     * @since 9
+                    dropLookupMode(int)  (1 usage found)
+                        814         * @since 9
+                    empty(MethodType)  (1 usage found)
+                        3238     * @since 9
+                    findClass(String)  (1 usage found)
+                        1132         * @since 9
+                    findStaticVarHandle(Class<?>, String, Class<?>)  (1 usage found)
+                        1479         * @since 9
+                    findVarHandle(Class<?>, String, Class<?>)  (1 usage found)
+                        1356         * @since 9
+                    foldArguments(MethodHandle, int, MethodHandle)  (1 usage found)
+                        4105     * @since 9
+                    hasPrivateAccess()  (1 usage found)
+                        1908         * @since 9
+                    iteratedLoop(MethodHandle, MethodHandle, MethodHandle)  (1 usage found)
+                        5537     * @since 9
+                    loop(MethodHandle[]...)  (1 usage found)
+                        4639     * @since 9
+                    privateLookupIn(Class<?>, Lookup)  (1 usage found)
+                        174     * @since 9
+                    tryFinally(MethodHandle, MethodHandle)  (1 usage found)
+                        5729     * @since 9
+                    unreflectVarHandle(Field)  (1 usage found)
+                        1786         * @since 9
+                    varHandleExactInvoker(AccessMode, MethodType)  (1 usage found)
+                        2833     * @since 9
+                    varHandleInvoker(AccessMode, MethodType)  (1 usage found)
+                        2862     * @since 9
+                    whileLoop(MethodHandle, MethodHandle, MethodHandle)  (1 usage found)
+                        4913     * @since 9
+                    zero(Class<?>)  (1 usage found)
+                        3213     * @since 9
+                    649         *  @since 9
+                StringConcatException.java  (1 usage found)
+                    30 * @since 9
+                StringConcatFactory.java  (1 usage found)
+                    99 * @since 9
+                VarHandle.java  (1 usage found)
+                    422 * @since 9
+            java.lang.management  (2 usages found)
+                ThreadInfo.java  (2 usages found)
+                    getPriority()  (1 usage found)
+                        605     * @since 9
+                    isDaemon()  (1 usage found)
+                        593     * @since 9
+            java.lang.module  (19 usages found)
+                Configuration.java  (1 usage found)
+                    174 * @since 9
+                FindException.java  (1 usage found)
+                    32 * @since 9
+                InvalidModuleDescriptorException.java  (1 usage found)
+                    33 * @since 9
+                ModuleDescriptor.java  (10 usages found)
+                    69 * @since 9
+                    81     * @since 9
+                    91         * @since 9
+                    291     * @since 9
+                    299         * @since 9
+                    454     * @since 9
+                    462         * @since 9
+                    610     * @since 9
+                    742     * @since 9
+                    1342     * @since 9
+                ModuleFinder.java  (1 usage found)
+                    87 * @since 9
+                ModuleReader.java  (1 usage found)
+                    65 * @since 9
+                ModuleReference.java  (1 usage found)
+                    46 * @since 9
+                package-info.java  (1 usage found)
+                    36 * @since 9
+                ResolutionException.java  (1 usage found)
+                    32 * @since 9
+                ResolvedModule.java  (1 usage found)
+                    39 * @since 9
+            java.lang.ref  (3 usages found)
+                Cleaner.java  (2 usages found)
+                    129 * @since 9
+                    226     * @since 9
+                Reference.java  (1 usage found)
+                    reachabilityFence(Object)  (1 usage found)
+                        414     * @since 9
+            java.lang.reflect  (10 usages found)
+                AnnotatedArrayType.java  (1 usage found)
+                    getAnnotatedOwnerType()  (1 usage found)
+                        56     * @since 9
+                AnnotatedParameterizedType.java  (1 usage found)
+                    getAnnotatedOwnerType()  (1 usage found)
+                        62     * @since 9
+                AnnotatedType.java  (1 usage found)
+                    getAnnotatedOwnerType()  (1 usage found)
+                        63     * @since 9
+                AnnotatedTypeVariable.java  (1 usage found)
+                    getAnnotatedOwnerType()  (1 usage found)
+                        57     * @since 9
+                AnnotatedWildcardType.java  (1 usage found)
+                    getAnnotatedOwnerType()  (1 usage found)
+                        68     * @since 9
+                InaccessibleObjectException.java  (1 usage found)
+                    32 * @since 9
+                Layer.java  (2 usages found)
+                    128 * @since 9
+                    174     * @since 9
+                LayerInstantiationException.java  (1 usage found)
+                    33 * @since 9
+                Module.java  (1 usage found)
+                    93 * @since 9
+            java.math  (3 usages found)
+                BigInteger.java  (2 usages found)
+                    BigInteger(byte[], int, int)  (1 usage found)
+                        301     * @since 9
+                    BigInteger(int, byte[], int, int)  (1 usage found)
+                        389     * @since 9
+                MutableBigInteger.java  (1 usage found)
+                    sqrt()  (1 usage found)
+                        1881     * @since 9
+            java.net  (32 usages found)
+                Authenticator.java  (3 usages found)
+                    getDefault()  (1 usage found)
+                        151     * @since 9
+                    requestPasswordAuthentication(Authenticator, String, InetAddress, int, String, String, String, ...)  (1 usage found)
+                        388     * @since 9
+                    requestPasswordAuthenticationInstance(String, InetAddress, int, String, String, String, URL, ...)  (1 usage found)
+                        440     * @since 9
+                DatagramSocket.java  (3 usages found)
+                    getOption(SocketOption<T>)  (1 usage found)
+                        1371     * @since 9
+                    setOption(SocketOption<T>, T)  (1 usage found)
+                        1341     * @since 9
+                    supportedOptions()  (1 usage found)
+                        1389     * @since 9
+                DatagramSocketImpl.java  (3 usages found)
+                    getOption(SocketOption<T>)  (1 usage found)
+                        323     * @since 9
+                    setOption(SocketOption<T>, T)  (1 usage found)
+                        279     * @since 9
+                    supportedOptions()  (1 usage found)
+                        378     * @since 9
+                HttpURLConnection.java  (1 usage found)
+                    setAuthenticator(Authenticator)  (1 usage found)
+                        145     * @since 9
+                InetAddress.java  (3 usages found)
+                    882     * @since 9
+                    914     * @since 9
+                    942     * @since 9
+                NetworkInterface.java  (3 usages found)
+                    inetAddresses()  (1 usage found)
+                        133     * @since 9
+                    networkInterfaces()  (1 usage found)
+                        371     * @since 9
+                    subInterfaces()  (1 usage found)
+                        211     * @since 9
+                ProxySelector.java  (1 usage found)
+                    of(InetSocketAddress)  (1 usage found)
+                        177     * @since 9
+                ServerSocket.java  (3 usages found)
+                    getOption(SocketOption<T>)  (1 usage found)
+                        984     * @since 9
+                    setOption(SocketOption<T>, T)  (1 usage found)
+                        954     * @since 9
+                    supportedOptions()  (1 usage found)
+                        1002     * @since 9
+                Socket.java  (3 usages found)
+                    getOption(SocketOption<T>)  (1 usage found)
+                        1785     * @since 9
+                    setOption(SocketOption<T>, T)  (1 usage found)
+                        1757     * @since 9
+                    supportedOptions()  (1 usage found)
+                        1804     * @since 9
+                SocketImpl.java  (3 usages found)
+                    getOption(SocketOption<T>)  (1 usage found)
+                        416     * @since 9
+                    setOption(SocketOption<T>, T)  (1 usage found)
+                        374     * @since 9
+                    supportedOptions()  (1 usage found)
+                        470     * @since 9
+                SocketOptions.java  (1 usage found)
+                    179     * @since 9
+                StandardSocketOptions.java  (1 usage found)
+                    207     * @since 9
+                URLClassLoader.java  (2 usages found)
+                    URLClassLoader(String, URL[], ClassLoader)  (1 usage found)
+                        230     * @since 9
+                    URLClassLoader(String, URL[], ClassLoader, URLStreamHandlerFactory)  (1 usage found)
+                        264     * @since 9
+                URLConnection.java  (2 usages found)
+                    getDefaultUseCaches(String)  (1 usage found)
+                        1100     * @since 9
+                    setDefaultUseCaches(String, boolean)  (1 usage found)
+                        1084     * @since 9
+            java.net.spi  (2 usages found)
+                package-info.java  (1 usage found)
+                    32 * @since 9
+                URLStreamHandlerProvider.java  (1 usage found)
+                    47 * @since 9
+            java.nio  (60 usages found)
+                Buffer.java  (2 usages found)
+                    duplicate()  (1 usage found)
+                        612     * @since 9
+                    slice()  (1 usage found)
+                        593     * @since 9
+                ByteBuffer.java  (9 usages found)
+                    alignedSlice(int)  (1 usage found)
+                        1730     * @since 9
+                    alignmentOffset(int, int)  (1 usage found)
+                        1660     * @since 9
+                    clear()  (1 usage found)
+                        1128     * @since 9
+                    flip()  (1 usage found)
+                        1142     * @since 9
+                    limit(int)  (1 usage found)
+                        1086     * @since 9
+                    mark()  (1 usage found)
+                        1100     * @since 9
+                    position(int)  (1 usage found)
+                        1072     * @since 9
+                    reset()  (1 usage found)
+                        1114     * @since 9
+                    rewind()  (1 usage found)
+                        1156     * @since 9
+                CharBuffer.java  (7 usages found)
+                    clear()  (1 usage found)
+                        1128     * @since 9
+                    flip()  (1 usage found)
+                        1142     * @since 9
+                    limit(int)  (1 usage found)
+                        1086     * @since 9
+                    mark()  (1 usage found)
+                        1100     * @since 9
+                    position(int)  (1 usage found)
+                        1072     * @since 9
+                    reset()  (1 usage found)
+                        1114     * @since 9
+                    rewind()  (1 usage found)
+                        1156     * @since 9
+                DoubleBuffer.java  (7 usages found)
+                    clear()  (1 usage found)
+                        1128     * @since 9
+                    flip()  (1 usage found)
+                        1142     * @since 9
+                    limit(int)  (1 usage found)
+                        1086     * @since 9
+                    mark()  (1 usage found)
+                        1100     * @since 9
+                    position(int)  (1 usage found)
+                        1072     * @since 9
+                    reset()  (1 usage found)
+                        1114     * @since 9
+                    rewind()  (1 usage found)
+                        1156     * @since 9
+                FloatBuffer.java  (7 usages found)
+                    clear()  (1 usage found)
+                        1128     * @since 9
+                    flip()  (1 usage found)
+                        1142     * @since 9
+                    limit(int)  (1 usage found)
+                        1086     * @since 9
+                    mark()  (1 usage found)
+                        1100     * @since 9
+                    position(int)  (1 usage found)
+                        1072     * @since 9
+                    reset()  (1 usage found)
+                        1114     * @since 9
+                    rewind()  (1 usage found)
+                        1156     * @since 9
+                IntBuffer.java  (7 usages found)
+                    clear()  (1 usage found)
+                        1128     * @since 9
+                    flip()  (1 usage found)
+                        1142     * @since 9
+                    limit(int)  (1 usage found)
+                        1086     * @since 9
+                    mark()  (1 usage found)
+                        1100     * @since 9
+                    position(int)  (1 usage found)
+                        1072     * @since 9
+                    reset()  (1 usage found)
+                        1114     * @since 9
+                    rewind()  (1 usage found)
+                        1156     * @since 9
+                LongBuffer.java  (7 usages found)
+                    clear()  (1 usage found)
+                        1128     * @since 9
+                    flip()  (1 usage found)
+                        1142     * @since 9
+                    limit(int)  (1 usage found)
+                        1086     * @since 9
+                    mark()  (1 usage found)
+                        1100     * @since 9
+                    position(int)  (1 usage found)
+                        1072     * @since 9
+                    reset()  (1 usage found)
+                        1114     * @since 9
+                    rewind()  (1 usage found)
+                        1156     * @since 9
+                MappedByteBuffer.java  (7 usages found)
+                    clear()  (1 usage found)
+                        256     * @since 9
+                    flip()  (1 usage found)
+                        266     * @since 9
+                    limit(int)  (1 usage found)
+                        226     * @since 9
+                    mark()  (1 usage found)
+                        236     * @since 9
+                    position(int)  (1 usage found)
+                        216     * @since 9
+                    reset()  (1 usage found)
+                        246     * @since 9
+                    rewind()  (1 usage found)
+                        276     * @since 9
+                ShortBuffer.java  (7 usages found)
+                    clear()  (1 usage found)
+                        1128     * @since 9
+                    flip()  (1 usage found)
+                        1142     * @since 9
+                    limit(int)  (1 usage found)
+                        1086     * @since 9
+                    mark()  (1 usage found)
+                        1100     * @since 9
+                    position(int)  (1 usage found)
+                        1072     * @since 9
+                    reset()  (1 usage found)
+                        1114     * @since 9
+                    rewind()  (1 usage found)
+                        1156     * @since 9
+            java.rmi.server  (2 usages found)
+                UnicastRemoteObject.java  (2 usages found)
+                    exportObject(Remote, int, ObjectInputFilter)  (1 usage found)
+                        388     * @since 9
+                    exportObject(Remote, int, RMIClientSocketFactory, RMIServerSocketFactory, ObjectInputFilter)  (1 usage found)
+                        415     * @since 9
+            java.security  (32 usages found)
+                AuthProvider.java  (1 usage found)
+                    AuthProvider(String, String, String)  (1 usage found)
+                        67     * @since 9
+                DrbgParameters.java  (5 usages found)
+                    233 * @since 9
+                    279     * @since 9
+                    336     * @since 9
+                    413     * @since 9
+                    468     * @since 9
+                KeyStore.java  (3 usages found)
+                    getInstance(File, char[])  (1 usage found)
+                        1683     * @since 9
+                    getInstance(File, LoadStoreParameter)  (1 usage found)
+                        1739     * @since 9
+                    newInstance(File, ProtectionParameter)  (1 usage found)
+                        2023         * @since 9
+                KeyStoreSpi.java  (1 usage found)
+                    engineProbe(InputStream)  (1 usage found)
+                        629     * @since 9
+                PermissionCollection.java  (1 usage found)
+                    elementsAsStream()  (1 usage found)
+                        147     * @since 9
+                ProtectionDomain.java  (1 usage found)
+                    staticPermissionsOnly()  (1 usage found)
+                        278     * @since 9
+                Provider.java  (4 usages found)
+                    configure(String)  (1 usage found)
+                        286     * @since 9
+                    getVersionStr()  (1 usage found)
+                        335     * @since 9
+                    isConfigured()  (1 usage found)
+                        302     * @since 9
+                    Provider(String, String, String)  (1 usage found)
+                        253     * @since 9
+                SecureClassLoader.java  (1 usage found)
+                    SecureClassLoader(String, ClassLoader)  (1 usage found)
+                        127     * @since 9
+                SecureRandom.java  (9 usages found)
+                    getInstance(String, SecureRandomParameters)  (1 usage found)
+                        501     * @since 9
+                    getInstance(String, SecureRandomParameters, Provider)  (1 usage found)
+                        606     * @since 9
+                    getInstance(String, SecureRandomParameters, String)  (1 usage found)
+                        556     * @since 9
+                    getParameters()  (1 usage found)
+                        677     * @since 9
+                    nextBytes(byte[], SecureRandomParameters)  (1 usage found)
+                        762     * @since 9
+                    reseed()  (1 usage found)
+                        986     * @since 9
+                    reseed(SecureRandomParameters)  (1 usage found)
+                        1012     * @since 9
+                    toString()  (1 usage found)
+                        655     * @since 9
+                    175     * @since 9
+                SecureRandomParameters.java  (1 usage found)
+                    36 * @since 9
+                SecureRandomSpi.java  (5 usages found)
+                    engineGetParameters()  (1 usage found)
+                        203     * @since 9
+                    engineNextBytes(byte[], SecureRandomParameters)  (1 usage found)
+                        152     * @since 9
+                    engineReseed(SecureRandomParameters)  (1 usage found)
+                        188     * @since 9
+                    SecureRandomSpi(SecureRandomParameters)  (1 usage found)
+                        104     * @since 9
+                    toString()  (1 usage found)
+                        215     * @since 9
+            java.security.spec  (4 usages found)
+                EncodedKeySpec.java  (2 usages found)
+                    EncodedKeySpec(byte[], String)  (1 usage found)
+                        77     * @since 9
+                    getAlgorithm()  (1 usage found)
+                        96     * @since 9
+                PKCS8EncodedKeySpec.java  (1 usage found)
+                    PKCS8EncodedKeySpec(byte[], String)  (1 usage found)
+                        95     * @since 9
+                X509EncodedKeySpec.java  (1 usage found)
+                    X509EncodedKeySpec(byte[], String)  (1 usage found)
+                        85     * @since 9
+            java.sql  (10 usages found)
+                Connection.java  (6 usages found)
+                    beginRequest()  (1 usage found)
+                        1541     * @since 9
+                    endRequest()  (1 usage found)
+                        1583     * @since 9
+                    setShardingKey(ShardingKey)  (1 usage found)
+                        1697     * @since 9
+                    setShardingKey(ShardingKey, ShardingKey)  (1 usage found)
+                        1674     * @since 9
+                    setShardingKeyIfValid(ShardingKey, int)  (1 usage found)
+                        1648     * @since 9
+                    setShardingKeyIfValid(ShardingKey, ShardingKey, int)  (1 usage found)
+                        1617     * @since 9
+                ConnectionBuilder.java  (1 usage found)
+                    52 * @since 9
+                DatabaseMetaData.java  (1 usage found)
+                    supportsSharding()  (1 usage found)
+                        3697     * @since 9
+                DriverManager.java  (1 usage found)
+                    drivers()  (1 usage found)
+                        434     * @since 9
+                ShardingKey.java  (1 usage found)
+                    72 * @since 9
+            java.time  (16 usages found)
+                Clock.java  (1 usage found)
+                    tickMillis(ZoneId)  (1 usage found)
+                        226     * @since 9
+                Duration.java  (8 usages found)
+                    dividedBy(Duration)  (1 usage found)
+                        1008     * @since 9
+                    toDaysPart()  (1 usage found)
+                        1263     * @since 9
+                    toHoursPart()  (1 usage found)
+                        1279     * @since 9
+                    toMillisPart()  (1 usage found)
+                        1329     * @since 9
+                    toMinutesPart()  (1 usage found)
+                        1295     * @since 9
+                    toNanosPart()  (1 usage found)
+                        1346     * @since 9
+                    toSeconds()  (1 usage found)
+                        1197     * @since 9
+                    toSecondsPart()  (1 usage found)
+                        1311     * @since 9
+                LocalDate.java  (4 usages found)
+                    datesUntil(LocalDate)  (1 usage found)
+                        1730     * @since 9
+                    datesUntil(LocalDate, Period)  (1 usage found)
+                        1757     * @since 9
+                    ofInstant(Instant, ZoneId)  (1 usage found)
+                        316     * @since 9
+                    toEpochSecond(LocalTime, ZoneOffset)  (1 usage found)
+                        1987     * @since 9
+                LocalTime.java  (2 usages found)
+                    ofInstant(Instant, ZoneId)  (1 usage found)
+                        357     * @since 9
+                    toEpochSecond(LocalDate, ZoneOffset)  (1 usage found)
+                        1506     * @since 9
+                OffsetTime.java  (1 usage found)
+                    toEpochSecond(LocalDate)  (1 usage found)
+                        1247     * @since 9
+            java.time.chrono  (4 usages found)
+                Chronology.java  (2 usages found)
+                    epochSecond(Era, int, int, int, int, int, int, ...)  (1 usage found)
+                        766     * @since 9
+                    epochSecond(int, int, int, int, int, int, ZoneOffset)  (1 usage found)
+                        737     * @since 9
+                IsoChronology.java  (1 usage found)
+                    epochSecond(int, int, int, int, int, int, ZoneOffset)  (1 usage found)
+                        288     * @since 9
+                JapaneseEra.java  (1 usage found)
+                    getDisplayName(TextStyle, Locale)  (1 usage found)
+                        255     * @since 9
+            java.util  (131 usages found)
+                Arrays.java  (59 usages found)
+                    compare(boolean[], boolean[])  (1 usage found)
+                        5766     * @since 9
+                    compare(boolean[], int, int, boolean[], int, int)  (1 usage found)
+                        5842     * @since 9
+                    compare(byte[], byte[])  (1 usage found)
+                        5902     * @since 9
+                    compare(byte[], int, int, byte[], int, int)  (1 usage found)
+                        5977     * @since 9
+                    compare(char[], char[])  (1 usage found)
+                        6411     * @since 9
+                    compare(char[], int, int, char[], int, int)  (1 usage found)
+                        6486     * @since 9
+                    compare(double[], double[])  (1 usage found)
+                        7189     * @since 9
+                    compare(double[], int, int, double[], int, int)  (1 usage found)
+                        7264     * @since 9
+                    compare(float[], float[])  (1 usage found)
+                        7054     * @since 9
+                    compare(float[], int, int, float[], int, int)  (1 usage found)
+                        7129     * @since 9
+                    compare(int[], int, int, int[], int, int)  (1 usage found)
+                        6621     * @since 9
+                    compare(int[], int[])  (1 usage found)
+                        6546     * @since 9
+                    compare(long[], int, int, long[], int, int)  (1 usage found)
+                        6875     * @since 9
+                    compare(long[], long[])  (1 usage found)
+                        6800     * @since 9
+                    compare(short[], int, int, short[], int, int)  (1 usage found)
+                        6232     * @since 9
+                    compare(short[], short[])  (1 usage found)
+                        6157     * @since 9
+                    compare(T[], int, int, T[], int, int)  (1 usage found)
+                        7424     * @since 9
+                    compare(T[], int, int, T[], int, int, Comparator<? super T>)  (1 usage found)
+                        7564     * @since 9
+                    compare(T[], T[])  (1 usage found)
+                        7334     * @since 9
+                    compare(T[], T[], Comparator<? super T>)  (1 usage found)
+                        7488     * @since 9
+                    compareUnsigned(byte[], byte[])  (1 usage found)
+                        6030     * @since 9
+                    compareUnsigned(byte[], int, int, byte[], int, int)  (1 usage found)
+                        6097     * @since 9
+                    compareUnsigned(int[], int, int, int[], int, int)  (1 usage found)
+                        6740     * @since 9
+                    compareUnsigned(int[], int[])  (1 usage found)
+                        6674     * @since 9
+                    compareUnsigned(long[], int, int, long[], int, int)  (1 usage found)
+                        6994     * @since 9
+                    compareUnsigned(long[], long[])  (1 usage found)
+                        6928     * @since 9
+                    compareUnsigned(short[], int, int, short[], int, int)  (1 usage found)
+                        6351     * @since 9
+                    compareUnsigned(short[], short[])  (1 usage found)
+                        6285     * @since 9
+                    equals(boolean[], int, int, boolean[], int, int)  (1 usage found)
+                        2977     * @since 9
+                    equals(byte[], int, int, byte[], int, int)  (1 usage found)
+                        2905     * @since 9
+                    equals(char[], int, int, char[], int, int)  (1 usage found)
+                        2832     * @since 9
+                    equals(double[], int, int, double[], int, int)  (1 usage found)
+                        3061     * @since 9
+                    equals(float[], int, int, float[], int, int)  (1 usage found)
+                        3144     * @since 9
+                    equals(int[], int, int, int[], int, int)  (1 usage found)
+                        2687     * @since 9
+                    equals(long[], int, int, long[], int, int)  (1 usage found)
+                        2615     * @since 9
+                    equals(Object[], int, int, Object[], int, int)  (1 usage found)
+                        3226     * @since 9
+                    equals(short[], int, int, short[], int, int)  (1 usage found)
+                        2759     * @since 9
+                    equals(T[], int, int, T[], int, int, Comparator<? super T>)  (1 usage found)
+                        3321     * @since 9
+                    equals(T[], T[], Comparator<? super T>)  (1 usage found)
+                        3265     * @since 9
+                    mismatch(boolean[], boolean[])  (1 usage found)
+                        7636     * @since 9
+                    mismatch(boolean[], int, int, boolean[], int, int)  (1 usage found)
+                        7706     * @since 9
+                    mismatch(byte[], byte[])  (1 usage found)
+                        7763     * @since 9
+                    mismatch(byte[], int, int, byte[], int, int)  (1 usage found)
+                        7833     * @since 9
+                    mismatch(char[], char[])  (1 usage found)
+                        7890     * @since 9
+                    mismatch(char[], int, int, char[], int, int)  (1 usage found)
+                        7960     * @since 9
+                    mismatch(double[], double[])  (1 usage found)
+                        8525     * @since 9
+                    mismatch(double[], int, int, double[], int, int)  (1 usage found)
+                        8595     * @since 9
+                    mismatch(float[], float[])  (1 usage found)
+                        8398     * @since 9
+                    mismatch(float[], int, int, float[], int, int)  (1 usage found)
+                        8468     * @since 9
+                    mismatch(int[], int, int, int[], int, int)  (1 usage found)
+                        8214     * @since 9
+                    mismatch(int[], int[])  (1 usage found)
+                        8144     * @since 9
+                    mismatch(long[], int, int, long[], int, int)  (1 usage found)
+                        8341     * @since 9
+                    mismatch(long[], long[])  (1 usage found)
+                        8271     * @since 9
+                    mismatch(Object[], int, int, Object[], int, int)  (1 usage found)
+                        8726     * @since 9
+                    mismatch(Object[], Object[])  (1 usage found)
+                        8652     * @since 9
+                    mismatch(short[], int, int, short[], int, int)  (1 usage found)
+                        8087     * @since 9
+                    mismatch(short[], short[])  (1 usage found)
+                        8017     * @since 9
+                    mismatch(T[], int, int, T[], int, int, Comparator<? super T>)  (1 usage found)
+                        8875     * @since 9
+                    mismatch(T[], T[], Comparator<? super T>)  (1 usage found)
+                        8790     * @since 9
+                Currency.java  (1 usage found)
+                    getNumericCodeAsString()  (1 usage found)
+                        554     * @since 9
+                Enumeration.java  (1 usage found)
+                    asIterator()  (1 usage found)
+                        115     * @since 9
+                ImmutableCollections.java  (6 usages found)
+                    readObject(ObjectInputStream)  (1 usage found)
+                        878     * @since 9
+                    readResolve()  (1 usage found)
+                        932     * @since 9
+                    writeObject(ObjectOutputStream)  (1 usage found)
+                        906     * @since 9
+                    817 * @since 9
+                    851     * @since 9
+                    857     * @since 9
+                KeyValueHolder.java  (1 usage found)
+                    50 * @since 9
+                List.java  (12 usages found)
+                    of()  (1 usage found)
+                        786     * @since 9
+                    of(E)  (1 usage found)
+                        802     * @since 9
+                    of(E, E)  (1 usage found)
+                        819     * @since 9
+                    of(E, E, E)  (1 usage found)
+                        837     * @since 9
+                    of(E, E, E, E)  (1 usage found)
+                        856     * @since 9
+                    of(E, E, E, E, E)  (1 usage found)
+                        876     * @since 9
+                    of(E, E, E, E, E, E)  (1 usage found)
+                        897     * @since 9
+                    of(E, E, E, E, E, E, E)  (1 usage found)
+                        920     * @since 9
+                    of(E, E, E, E, E, E, E, ...)  (3 usages found)
+                        944     * @since 9
+                        969     * @since 9
+                        995     * @since 9
+                    of(E...)  (1 usage found)
+                        1025     * @since 9
+                Locale.java  (2 usages found)
+                    getISOCountries(IsoCountryCode)  (1 usage found)
+                        1092     * @since 9
+                    609     * @since 9
+                Map.java  (13 usages found)
+                    entry(K, V)  (1 usage found)
+                        1652     * @since 9
+                    of()  (1 usage found)
+                        1286     * @since 9
+                    of(K, V)  (1 usage found)
+                        1303     * @since 9
+                    of(K, V, K, V)  (1 usage found)
+                        1323     * @since 9
+                    of(K, V, K, V, K, V)  (1 usage found)
+                        1345     * @since 9
+                    of(K, V, K, V, K, V, K, ...)  (7 usages found)
+                        1369     * @since 9
+                        1395     * @since 9
+                        1423     * @since 9
+                        1455     * @since 9
+                        1489     * @since 9
+                        1525     * @since 9
+                        1563     * @since 9
+                    ofEntries(Entry<? extends K, ? extends V>...)  (1 usage found)
+                        1600     * @since 9
+                Objects.java  (5 usages found)
+                    checkFromIndexSize(int, int, int)  (1 usage found)
+                        419     * @since 9
+                    checkFromToIndex(int, int, int)  (1 usage found)
+                        393     * @since 9
+                    checkIndex(int, int)  (1 usage found)
+                        366     * @since 9
+                    requireNonNullElse(T, T)  (1 usage found)
+                        298     * @since 9
+                    requireNonNullElseGet(T, Supplier<? extends T>)  (1 usage found)
+                        317     * @since 9
+                Optional.java  (3 usages found)
+                    ifPresentOrElse(Consumer<? super T>, Runnable)  (1 usage found)
+                        176     * @since 9
+                    or(Supplier<? extends Optional<? extends T>>)  (1 usage found)
+                        289     * @since 9
+                    stream()  (1 usage found)
+                        315     * @since 9
+                OptionalDouble.java  (2 usages found)
+                    ifPresentOrElse(DoubleConsumer, Runnable)  (1 usage found)
+                        157     * @since 9
+                    stream()  (1 usage found)
+                        181     * @since 9
+                OptionalInt.java  (2 usages found)
+                    ifPresentOrElse(IntConsumer, Runnable)  (1 usage found)
+                        157     * @since 9
+                    stream()  (1 usage found)
+                        180     * @since 9
+                OptionalLong.java  (2 usages found)
+                    ifPresentOrElse(LongConsumer, Runnable)  (1 usage found)
+                        157     * @since 9
+                    stream()  (1 usage found)
+                        180     * @since 9
+                ResourceBundle.java  (3 usages found)
+                    clearCache(Module)  (1 usage found)
+                        2271     * @since 9
+                    getBundle(String, Locale, Module)  (1 usage found)
+                        1076     * @since 9
+                    getBundle(String, Module)  (1 usage found)
+                        1026     * @since 9
+                Scanner.java  (3 usages found)
+                    findAll(Pattern)  (1 usage found)
+                        2815     * @since 9
+                    findAll(String)  (1 usage found)
+                        2837     * @since 9
+                    tokens()  (1 usage found)
+                        2729     * @since 9
+                ServiceLoader.java  (4 usages found)
+                    findFirst()  (1 usage found)
+                        1553     * @since 9
+                    load(Layer, Class<S>)  (1 usage found)
+                        1524     * @since 9
+                    stream()  (1 usage found)
+                        1302     * @since 9
+                    388     * @since 9
+                Set.java  (12 usages found)
+                    of()  (1 usage found)
+                        448     * @since 9
+                    of(E)  (1 usage found)
+                        463     * @since 9
+                    of(E, E)  (1 usage found)
+                        480     * @since 9
+                    of(E, E, E)  (1 usage found)
+                        498     * @since 9
+                    of(E, E, E, E)  (1 usage found)
+                        517     * @since 9
+                    of(E, E, E, E, E)  (1 usage found)
+                        537     * @since 9
+                    of(E, E, E, E, E, E)  (1 usage found)
+                        558     * @since 9
+                    of(E, E, E, E, E, E, E)  (1 usage found)
+                        581     * @since 9
+                    of(E, E, E, E, E, E, E, ...)  (3 usages found)
+                        605     * @since 9
+                        630     * @since 9
+                        656     * @since 9
+                    of(E...)  (1 usage found)
+                        687     * @since 9
+            java.util.concurrent  (19 usages found)
+                CompletableFuture.java  (13 usages found)
+                    completeAsync(Supplier<? extends T>)  (1 usage found)
+                        2603     * @since 9
+                    completeAsync(Supplier<? extends T>, Executor)  (1 usage found)
+                        2585     * @since 9
+                    completedStage(U)  (1 usage found)
+                        2699     * @since 9
+                    completeOnTimeout(T, long, TimeUnit)  (1 usage found)
+                        2640     * @since 9
+                    copy()  (1 usage found)
+                        2546     * @since 9
+                    defaultExecutor()  (1 usage found)
+                        2528     * @since 9
+                    delayedExecutor(long, TimeUnit)  (1 usage found)
+                        2683     * @since 9
+                    delayedExecutor(long, TimeUnit, Executor)  (1 usage found)
+                        2664     * @since 9
+                    failedFuture(Throwable)  (1 usage found)
+                        2712     * @since 9
+                    failedStage(Throwable)  (1 usage found)
+                        2727     * @since 9
+                    minimalCompletionStage()  (1 usage found)
+                        2570     * @since 9
+                    newIncompleteFuture()  (1 usage found)
+                        2513     * @since 9
+                    orTimeout(long, TimeUnit)  (1 usage found)
+                        2619     * @since 9
+                Flow.java  (1 usage found)
+                    164 * @since 9
+                ForkJoinPool.java  (1 usage found)
+                    ForkJoinPool(int, ForkJoinWorkerThreadFactory, UncaughtExceptionHandler, boolean, int, int, int, ...)  (1 usage found)
+                        2289     * @since 9
+                ForkJoinTask.java  (1 usage found)
+                    pollSubmission()  (1 usage found)
+                        1301     * @since 9
+                SubmissionPublisher.java  (1 usage found)
+                    159 * @since 9
+                TimeUnit.java  (2 usages found)
+                    of(ChronoUnit)  (1 usage found)
+                        432     * @since 9
+                    toChronoUnit()  (1 usage found)
+                        409     * @since 9
+            java.util.concurrent.atomic  (91 usages found)
+                AtomicBoolean.java  (13 usages found)
+                    compareAndExchange(boolean, boolean)  (1 usage found)
+                        264     * @since 9
+                    compareAndExchangeAcquire(boolean, boolean)  (1 usage found)
+                        282     * @since 9
+                    compareAndExchangeRelease(boolean, boolean)  (1 usage found)
+                        300     * @since 9
+                    getAcquire()  (1 usage found)
+                        237     * @since 9
+                    getOpaque()  (1 usage found)
+                        215     * @since 9
+                    getPlain()  (1 usage found)
+                        192     * @since 9
+                    setOpaque(boolean)  (1 usage found)
+                        226     * @since 9
+                    setPlain(boolean)  (1 usage found)
+                        204     * @since 9
+                    setRelease(boolean)  (1 usage found)
+                        248     * @since 9
+                    weakCompareAndSetAcquire(boolean, boolean)  (1 usage found)
+                        334     * @since 9
+                    weakCompareAndSetPlain(boolean, boolean)  (1 usage found)
+                        137     * @since 9
+                    weakCompareAndSetRelease(boolean, boolean)  (1 usage found)
+                        351     * @since 9
+                    weakCompareAndSetVolatile(boolean, boolean)  (1 usage found)
+                        317     * @since 9
+                AtomicInteger.java  (13 usages found)
+                    compareAndExchange(int, int)  (1 usage found)
+                        473     * @since 9
+                    compareAndExchangeAcquire(int, int)  (1 usage found)
+                        489     * @since 9
+                    compareAndExchangeRelease(int, int)  (1 usage found)
+                        505     * @since 9
+                    getAcquire()  (1 usage found)
+                        446     * @since 9
+                    getOpaque()  (1 usage found)
+                        424     * @since 9
+                    getPlain()  (1 usage found)
+                        401     * @since 9
+                    setOpaque(int)  (1 usage found)
+                        435     * @since 9
+                    setPlain(int)  (1 usage found)
+                        413     * @since 9
+                    setRelease(int)  (1 usage found)
+                        457     * @since 9
+                    weakCompareAndSetAcquire(int, int)  (1 usage found)
+                        535     * @since 9
+                    weakCompareAndSetPlain(int, int)  (1 usage found)
+                        175     * @since 9
+                    weakCompareAndSetRelease(int, int)  (1 usage found)
+                        550     * @since 9
+                    weakCompareAndSetVolatile(int, int)  (1 usage found)
+                        520     * @since 9
+                AtomicIntegerArray.java  (13 usages found)
+                    compareAndExchange(int, int, int)  (1 usage found)
+                        469     * @since 9
+                    compareAndExchangeAcquire(int, int, int)  (1 usage found)
+                        487     * @since 9
+                    compareAndExchangeRelease(int, int, int)  (1 usage found)
+                        505     * @since 9
+                    getAcquire(int)  (1 usage found)
+                        439     * @since 9
+                    getOpaque(int)  (1 usage found)
+                        415     * @since 9
+                    getPlain(int)  (1 usage found)
+                        390     * @since 9
+                    setOpaque(int, int)  (1 usage found)
+                        427     * @since 9
+                    setPlain(int, int)  (1 usage found)
+                        403     * @since 9
+                    setRelease(int, int)  (1 usage found)
+                        451     * @since 9
+                    weakCompareAndSetAcquire(int, int, int)  (1 usage found)
+                        537     * @since 9
+                    weakCompareAndSetPlain(int, int, int)  (1 usage found)
+                        180     * @since 9
+                    weakCompareAndSetRelease(int, int, int)  (1 usage found)
+                        553     * @since 9
+                    weakCompareAndSetVolatile(int, int, int)  (1 usage found)
+                        521     * @since 9
+                AtomicLong.java  (13 usages found)
+                    compareAndExchange(long, long)  (1 usage found)
+                        487     * @since 9
+                    compareAndExchangeAcquire(long, long)  (1 usage found)
+                        503     * @since 9
+                    compareAndExchangeRelease(long, long)  (1 usage found)
+                        519     * @since 9
+                    getAcquire()  (1 usage found)
+                        460     * @since 9
+                    getOpaque()  (1 usage found)
+                        438     * @since 9
+                    getPlain()  (1 usage found)
+                        415     * @since 9
+                    setOpaque(long)  (1 usage found)
+                        449     * @since 9
+                    setPlain(long)  (1 usage found)
+                        427     * @since 9
+                    setRelease(long)  (1 usage found)
+                        471     * @since 9
+                    weakCompareAndSetAcquire(long, long)  (1 usage found)
+                        549     * @since 9
+                    weakCompareAndSetPlain(long, long)  (1 usage found)
+                        191     * @since 9
+                    weakCompareAndSetRelease(long, long)  (1 usage found)
+                        564     * @since 9
+                    weakCompareAndSetVolatile(long, long)  (1 usage found)
+                        534     * @since 9
+                AtomicLongArray.java  (13 usages found)
+                    compareAndExchange(int, long, long)  (1 usage found)
+                        469     * @since 9
+                    compareAndExchangeAcquire(int, long, long)  (1 usage found)
+                        487     * @since 9
+                    compareAndExchangeRelease(int, long, long)  (1 usage found)
+                        505     * @since 9
+                    getAcquire(int)  (1 usage found)
+                        439     * @since 9
+                    getOpaque(int)  (1 usage found)
+                        415     * @since 9
+                    getPlain(int)  (1 usage found)
+                        390     * @since 9
+                    setOpaque(int, long)  (1 usage found)
+                        427     * @since 9
+                    setPlain(int, long)  (1 usage found)
+                        403     * @since 9
+                    setRelease(int, long)  (1 usage found)
+                        451     * @since 9
+                    weakCompareAndSetAcquire(int, long, long)  (1 usage found)
+                        537     * @since 9
+                    weakCompareAndSetPlain(int, long, long)  (1 usage found)
+                        180     * @since 9
+                    weakCompareAndSetRelease(int, long, long)  (1 usage found)
+                        553     * @since 9
+                    weakCompareAndSetVolatile(int, long, long)  (1 usage found)
+                        521     * @since 9
+                AtomicReference.java  (13 usages found)
+                    compareAndExchange(V, V)  (1 usage found)
+                        353     * @since 9
+                    compareAndExchangeAcquire(V, V)  (1 usage found)
+                        369     * @since 9
+                    compareAndExchangeRelease(V, V)  (1 usage found)
+                        385     * @since 9
+                    getAcquire()  (1 usage found)
+                        326     * @since 9
+                    getOpaque()  (1 usage found)
+                        304     * @since 9
+                    getPlain()  (1 usage found)
+                        281     * @since 9
+                    setOpaque(V)  (1 usage found)
+                        315     * @since 9
+                    setPlain(V)  (1 usage found)
+                        293     * @since 9
+                    setRelease(V)  (1 usage found)
+                        337     * @since 9
+                    weakCompareAndSetAcquire(V, V)  (1 usage found)
+                        415     * @since 9
+                    weakCompareAndSetPlain(V, V)  (1 usage found)
+                        154     * @since 9
+                    weakCompareAndSetRelease(V, V)  (1 usage found)
+                        430     * @since 9
+                    weakCompareAndSetVolatile(V, V)  (1 usage found)
+                        400     * @since 9
+                AtomicReferenceArray.java  (13 usages found)
+                    compareAndExchange(int, E, E)  (1 usage found)
+                        431     * @since 9
+                    compareAndExchangeAcquire(int, E, E)  (1 usage found)
+                        449     * @since 9
+                    compareAndExchangeRelease(int, E, E)  (1 usage found)
+                        467     * @since 9
+                    getAcquire(int)  (1 usage found)
+                        401     * @since 9
+                    getOpaque(int)  (1 usage found)
+                        377     * @since 9
+                    getPlain(int)  (1 usage found)
+                        352     * @since 9
+                    setOpaque(int, E)  (1 usage found)
+                        389     * @since 9
+                    setPlain(int, E)  (1 usage found)
+                        365     * @since 9
+                    setRelease(int, E)  (1 usage found)
+                        413     * @since 9
+                    weakCompareAndSetAcquire(int, E, E)  (1 usage found)
+                        499     * @since 9
+                    weakCompareAndSetPlain(int, E, E)  (1 usage found)
+                        186     * @since 9
+                    weakCompareAndSetRelease(int, E, E)  (1 usage found)
+                        515     * @since 9
+                    weakCompareAndSetVolatile(int, E, E)  (1 usage found)
+                        483     * @since 9
+            java.util.jar  (6 usages found)
+                JarFile.java  (6 usages found)
+                    baseVersion()  (1 usage found)
+                        200     * @since 9
+                    getRealName(JarEntry)  (1 usage found)
+                        591     * @since 9
+                    getVersion()  (1 usage found)
+                        348     * @since 9
+                    isMultiRelease()  (1 usage found)
+                        358     * @since 9
+                    JarFile(File, boolean, int, Version)  (1 usage found)
+                        321     * @since 9
+                    runtimeVersion()  (1 usage found)
+                        218     * @since 9
+            java.util.logging  (8 usages found)
+                FileHandler.java  (1 usage found)
+                    FileHandler(String, long, int, boolean)  (1 usage found)
+                        436     * @since 9
+                Logger.java  (2 usages found)
+                    logrb(Level, ResourceBundle, String, Object...)  (1 usage found)
+                        1508     * @since 9
+                    logrb(Level, ResourceBundle, String, Throwable)  (1 usage found)
+                        1625     * @since 9
+                LogManager.java  (2 usages found)
+                    addConfigurationListener(Runnable)  (1 usage found)
+                        2575     * @since 9
+                    removeConfigurationListener(Runnable)  (1 usage found)
+                        2602     * @since 9
+                LogRecord.java  (3 usages found)
+                    getInstant()  (1 usage found)
+                        507     * @since 9
+                    setInstant(Instant)  (1 usage found)
+                        527     * @since 9
+                    140     * @since 9
+            java.util.regex  (5 usages found)
+                Matcher.java  (5 usages found)
+                    appendReplacement(StringBuilder, String)  (1 usage found)
+                        991     * @since 9
+                    appendTail(StringBuilder)  (1 usage found)
+                        1134     * @since 9
+                    replaceAll(Function<MatchResult, String>)  (1 usage found)
+                        1246     * @since 9
+                    replaceFirst(Function<MatchResult, String>)  (1 usage found)
+                        1468     * @since 9
+                    results()  (1 usage found)
+                        1290     * @since 9
+            java.util.spi  (3 usages found)
+                AbstractResourceBundleProvider.java  (1 usage found)
+                    83 * @since 9
+                ResourceBundleProvider.java  (1 usage found)
+                    59 * @since 9
+                ToolProvider.java  (1 usage found)
+                    53 * @since 9
+            java.util.stream  (16 usages found)
+                Collectors.java  (2 usages found)
+                    filtering(Predicate<? super T>, Collector<? super T, A, R>)  (1 usage found)
+                        497     * @since 9
+                    flatMapping(Function<? super T, ? extends Stream<? extends U>>, Collector<? super U, A, R>)  (1 usage found)
+                        447     * @since 9
+                DoubleStream.java  (3 usages found)
+                    dropWhile(DoublePredicate)  (1 usage found)
+                        404     * @since 9
+                    iterate(double, DoublePredicate, DoubleUnaryOperator)  (1 usage found)
+                        1024     * @since 9
+                    takeWhile(DoublePredicate)  (1 usage found)
+                        337     * @since 9
+                IntStream.java  (3 usages found)
+                    dropWhile(IntPredicate)  (1 usage found)
+                        400     * @since 9
+                    iterate(int, IntPredicate, IntUnaryOperator)  (1 usage found)
+                        964     * @since 9
+                    takeWhile(IntPredicate)  (1 usage found)
+                        334     * @since 9
+                LongStream.java  (3 usages found)
+                    dropWhile(LongPredicate)  (1 usage found)
+                        402     * @since 9
+                    iterate(long, LongPredicate, LongUnaryOperator)  (1 usage found)
+                        954     * @since 9
+                    takeWhile(LongPredicate)  (1 usage found)
+                        335     * @since 9
+                Stream.java  (4 usages found)
+                    dropWhile(Predicate<? super T>)  (1 usage found)
+                        619     * @since 9
+                    iterate(T, Predicate<? super T>, UnaryOperator<T>)  (1 usage found)
+                        1273     * @since 9
+                    ofNullable(T)  (1 usage found)
+                        1170     * @since 9
+                    takeWhile(Predicate<? super T>)  (1 usage found)
+                        553     * @since 9
+                WhileOps.java  (1 usage found)
+                    46 * @since 9
+            java.util.zip  (5 usages found)
+                Checksum.java  (2 usages found)
+                    update(byte[])  (1 usage found)
+                        54     * @since 9
+                    update(ByteBuffer)  (1 usage found)
+                        102     * @since 9
+                CRC32C.java  (1 usage found)
+                    47 * @since 9
+                ZipEntry.java  (2 usages found)
+                    getTimeLocal()  (1 usage found)
+                        262     * @since 9
+                    setTimeLocal(LocalDateTime)  (1 usage found)
+                        223     * @since 9
+            javafx.application  (5 usages found)
+                Platform.java  (5 usages found)
+                    enterNestedEventLoop(Object)  (1 usage found)
+                        282     * @since 9
+                    exitNestedEventLoop(Object, Object)  (1 usage found)
+                        312     * @since 9
+                    isNestedLoopRunning()  (1 usage found)
+                        329     * @since 9
+                    requestNextPulse()  (1 usage found)
+                        163     * @since 9
+                    startup(Runnable)  (1 usage found)
+                        95     * @since 9
+            javafx.collections.transformation  (1 usage found)
+                TransformationList.java  (1 usage found)
+                    getViewIndex(int)  (1 usage found)
+                        159     * @since 9
+            javafx.css  (23 usages found)
+                CompoundSelector.java  (1 usage found)
+                    62 * @since 9
+                CssParser.java  (1 usage found)
+                    109 * @since 9
+                Declaration.java  (1 usage found)
+                    36 * @since 9
+                FontFace.java  (1 usage found)
+                    31 * @since 9
+                Match.java  (1 usage found)
+                    39 * @since 9
+                ParsedValue.java  (2 usages found)
+                    isContainsLookups()  (1 usage found)
+                        95     * @since 9
+                    isLookup()  (1 usage found)
+                        103     * @since 9
+                Rule.java  (1 usage found)
+                    46 * @since 9
+                Selector.java  (1 usage found)
+                    41 * @since 9
+                SimpleSelector.java  (1 usage found)
+                    50 * @since 9
+                Size.java  (1 usage found)
+                    34 * @since 9
+                SizeUnits.java  (1 usage found)
+                    33 * @since 9
+                Style.java  (1 usage found)
+                    32 * @since 9
+                Styleable.java  (1 usage found)
+                    getStyleableNode()  (1 usage found)
+                        105     * @since 9
+                StyleClass.java  (1 usage found)
+                    29 * @since 9
+                StyleConverter.java  (7 usages found)
+                    cacheValue(ParsedValue, Object)  (1 usage found)
+                        264     * @since 9
+                    clearCache()  (1 usage found)
+                        243     * @since 9
+                    convert(Map<CssMetaData<? extends Styleable, ?>, Object>)  (1 usage found)
+                        221     * @since 9
+                    getCachedValue(ParsedValue)  (1 usage found)
+                        253     * @since 9
+                    readBinary(DataInputStream, String[])  (1 usage found)
+                        276     * @since 9
+                    writeBinary(DataOutputStream, StringStore)  (1 usage found)
+                        229     * @since 9
+                    495     * @since 9
+                Stylesheet.java  (1 usage found)
+                    56 * @since 9
+            javafx.css.converter  (13 usages found)
+                BooleanConverter.java  (1 usage found)
+                    33 * @since 9
+                ColorConverter.java  (1 usage found)
+                    34 * @since 9
+                CursorConverter.java  (1 usage found)
+                    34 * @since 9
+                DurationConverter.java  (1 usage found)
+                    37 * @since 9
+                EffectConverter.java  (1 usage found)
+                    41 * @since 9
+                EnumConverter.java  (1 usage found)
+                    43 * @since 9
+                FontConverter.java  (1 usage found)
+                    43 * @since 9
+                InsetsConverter.java  (1 usage found)
+                    41 * @since 9
+                PaintConverter.java  (1 usage found)
+                    44 * @since 9
+                ShapeConverter.java  (1 usage found)
+                    39 * @since 9
+                SizeConverter.java  (1 usage found)
+                    36 * @since 9
+                StringConverter.java  (1 usage found)
+                    36 * @since 9
+                URLConverter.java  (1 usage found)
+                    47 * @since 9
+            javafx.fxml  (3 usages found)
+                FXMLLoader.java  (2 usages found)
+                    getLoadListener()  (1 usage found)
+                        2385     * @since 9
+                    setLoadListener(LoadListener)  (1 usage found)
+                        2395     * @since 9
+                LoadListener.java  (1 usage found)
+                    31 * @since 9
+            javafx.scene  (7 usages found)
+                Node.java  (3 usages found)
+                    getInitialCursor()  (1 usage found)
+                        8772     * @since 9
+                    getInitialFocusTraversable()  (1 usage found)
+                        8759     * @since 9
+                    viewOrderProperty()  (1 usage found)
+                        5410     * @since 9
+                Scene.java  (4 usages found)
+                    addPostLayoutPulseListener(Runnable)  (1 usage found)
+                        695     * @since 9
+                    addPreLayoutPulseListener(Runnable)  (1 usage found)
+                        635     * @since 9
+                    removePostLayoutPulseListener(Runnable)  (1 usage found)
+                        722     * @since 9
+                    removePreLayoutPulseListener(Runnable)  (1 usage found)
+                        662     * @since 9
+            javafx.scene.control  (33 usages found)
+                Accordion.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        220     * @since 9
+                ButtonBar.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        585     * @since 9
+                Cell.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        767     * @since 9
+                ComboBox.java  (2 usages found)
+                    cancelEdit()  (1 usage found)
+                        462     * @since 9
+                    commitValue()  (1 usage found)
+                        447     * @since 9
+                Control.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        921     * @since 9
+                Hyperlink.java  (1 usage found)
+                    getInitialCursor()  (1 usage found)
+                        178     * @since 9
+                Label.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        173     * @since 9
+                Labeled.java  (1 usage found)
+                    getInitialAlignment()  (1 usage found)
+                        811     * @since 9
+                MenuBar.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        259     * @since 9
+                ProgressBar.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        120     * @since 9
+                ProgressIndicator.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        236     * @since 9
+                RadioButton.java  (1 usage found)
+                    getInitialAlignment()  (1 usage found)
+                        136     * @since 9
+                ScrollBar.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        483     * @since 9
+                ScrollPane.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        773     * @since 9
+                Separator.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        331     * @since 9
+                SkinBase.java  (7 usages found)
+                    snapPositionX(double)  (1 usage found)
+                        605     * @since 9
+                    snapPositionY(double)  (1 usage found)
+                        620     * @since 9
+                    snapSizeX(double)  (1 usage found)
+                        559     * @since 9
+                    snapSizeY(double)  (1 usage found)
+                        574     * @since 9
+                    snapSpaceX(double)  (1 usage found)
+                        513     * @since 9
+                    snapSpaceY(double)  (1 usage found)
+                        528     * @since 9
+                    unregisterChangeListeners(ObservableValue<?>)  (1 usage found)
+                        224     * @since 9
+                Spinner.java  (3 usages found)
+                    cancelEdit()  (1 usage found)
+                        455     * @since 9
+                    commitValue()  (1 usage found)
+                        437     * @since 9
+                    promptTextProperty()  (1 usage found)
+                        597     * @since 9
+                SplitPane.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        458     * @since 9
+                TableColumnBase.java  (1 usage found)
+                    526     * @since 9
+                ToggleButton.java  (1 usage found)
+                    getInitialAlignment()  (1 usage found)
+                        282     * @since 9
+                ToolBar.java  (1 usage found)
+                    getInitialFocusTraversable()  (1 usage found)
+                        261     * @since 9
+                Tooltip.java  (3 usages found)
+                    hideDelayProperty()  (1 usage found)
+                        362     * @since 9
+                    showDelayProperty()  (1 usage found)
+                        320     * @since 9
+                    showDurationProperty()  (1 usage found)
+                        342     * @since 9
+            javafx.scene.control.skin  (56 usages found)
+                AccordionSkin.java  (1 usage found)
+                    50 * @since 9
+                ButtonBarSkin.java  (1 usage found)
+                    53 * @since 9
+                ButtonSkin.java  (1 usage found)
+                    43 * @since 9
+                CellSkinBase.java  (1 usage found)
+                    54 * @since 9
+                CheckBoxSkin.java  (1 usage found)
+                    43 * @since 9
+                ChoiceBoxSkin.java  (1 usage found)
+                    63 * @since 9
+                ColorPickerSkin.java  (1 usage found)
+                    75 * @since 9
+                ComboBoxBaseSkin.java  (1 usage found)
+                    47 * @since 9
+                ComboBoxListViewSkin.java  (1 usage found)
+                    63 * @since 9
+                ComboBoxMode.java  (1 usage found)
+                    31 * @since 9
+                ComboBoxPopupControl.java  (1 usage found)
+                    65 * @since 9
+                ContextMenuSkin.java  (1 usage found)
+                    53 * @since 9
+                DateCellSkin.java  (1 usage found)
+                    42 * @since 9
+                DatePickerSkin.java  (1 usage found)
+                    53 * @since 9
+                HyperlinkSkin.java  (1 usage found)
+                    41 * @since 9
+                LabeledSkinBase.java  (1 usage found)
+                    65 * @since 9
+                LabelSkin.java  (1 usage found)
+                    36 * @since 9
+                ListCellSkin.java  (1 usage found)
+                    45 * @since 9
+                ListViewSkin.java  (1 usage found)
+                    66 * @since 9
+                MenuBarSkin.java  (1 usage found)
+                    104 * @since 9
+                MenuButtonSkin.java  (1 usage found)
+                    39 * @since 9
+                MenuButtonSkinBase.java  (1 usage found)
+                    51 * @since 9
+                NestedTableColumnHeader.java  (1 usage found)
+                    57 * @since 9
+                PaginationSkin.java  (1 usage found)
+                    78 * @since 9
+                ProgressBarSkin.java  (1 usage found)
+                    65 * @since 9
+                ProgressIndicatorSkin.java  (1 usage found)
+                    75 * @since 9
+                RadioButtonSkin.java  (1 usage found)
+                    42 * @since 9
+                ScrollBarSkin.java  (1 usage found)
+                    55 * @since 9
+                ScrollPaneSkin.java  (1 usage found)
+                    73 * @since 9
+                SeparatorSkin.java  (1 usage found)
+                    42 * @since 9
+                SliderSkin.java  (1 usage found)
+                    52 * @since 9
+                SpinnerSkin.java  (1 usage found)
+                    59 * @since 9
+                SplitMenuButtonSkin.java  (1 usage found)
+                    43 * @since 9
+                SplitPaneSkin.java  (1 usage found)
+                    55 * @since 9
+                TableCellSkin.java  (1 usage found)
+                    43 * @since 9
+                TableCellSkinBase.java  (1 usage found)
+                    49 * @since 9
+                TableColumnHeader.java  (1 usage found)
+                    80 * @since 9
+                TableHeaderRow.java  (1 usage found)
+                    61 * @since 9
+                TableRowSkin.java  (1 usage found)
+                    60 * @since 9
+                TableRowSkinBase.java  (1 usage found)
+                    62 * @since 9
+                TableViewSkin.java  (1 usage found)
+                    63 * @since 9
+                TableViewSkinBase.java  (1 usage found)
+                    76 * @since 9
+                TabPaneSkin.java  (1 usage found)
+                    103 * @since 9
+                TextAreaSkin.java  (1 usage found)
+                    77 * @since 9
+                TextFieldSkin.java  (1 usage found)
+                    70 * @since 9
+                TextInputControlSkin.java  (1 usage found)
+                    92 * @since 9
+                TitledPaneSkin.java  (1 usage found)
+                    62 * @since 9
+                ToggleButtonSkin.java  (1 usage found)
+                    40 * @since 9
+                ToolBarSkin.java  (1 usage found)
+                    86 * @since 9
+                TreeCellSkin.java  (1 usage found)
+                    60 * @since 9
+                TreeTableCellSkin.java  (1 usage found)
+                    41 * @since 9
+                TreeTableRowSkin.java  (1 usage found)
+                    65 * @since 9
+                TreeTableViewSkin.java  (1 usage found)
+                    63 * @since 9
+                TreeViewSkin.java  (1 usage found)
+                    59 * @since 9
+                VirtualContainerBase.java  (1 usage found)
+                    38 * @since 9
+                VirtualFlow.java  (1 usage found)
+                    83 * @since 9
+            javafx.scene.image  (1 usage found)
+                Image.java  (1 usage found)
+                    getUrl()  (1 usage found)
+                        176     * @since 9
+            javafx.scene.input  (2 usages found)
+                KeyCode.java  (2 usages found)
+                    getChar()  (1 usage found)
+                        1296     * @since 9
+                    getCode()  (1 usage found)
+                        1305     * @since 9
+            javafx.scene.layout  (9 usages found)
+                GridPane.java  (3 usages found)
+                    getCellBounds(int, int)  (1 usage found)
+                        2748     * @since 9
+                    getColumnCount()  (1 usage found)
+                        2725     * @since 9
+                    getRowCount()  (1 usage found)
+                        2706     * @since 9
+                Region.java  (6 usages found)
+                    snapPositionX(double)  (1 usage found)
+                        1788     * @since 9
+                    snapPositionY(double)  (1 usage found)
+                        1800     * @since 9
+                    snapSizeX(double)  (1 usage found)
+                        1749     * @since 9
+                    snapSizeY(double)  (1 usage found)
+                        1761     * @since 9
+                    snapSpaceX(double)  (1 usage found)
+                        1710     * @since 9
+                    snapSpaceY(double)  (1 usage found)
+                        1722     * @since 9
+            javafx.scene.text  (17 usages found)
+                Font.java  (2 usages found)
+                    loadFonts(InputStream, double)  (1 usage found)
+                        579     * @since 9
+                    loadFonts(String, double)  (1 usage found)
+                        447     * @since 9
+                HitInfo.java  (1 usage found)
+                    35 * @since 9
+                Text.java  (11 usages found)
+                    caretShape(int, boolean)  (1 usage found)
+                        1020     * @since 9
+                    getCaretShape()  (1 usage found)
+                        927     * @since 9
+                    getSelectionShape()  (1 usage found)
+                        848     * @since 9
+                    hitTest(Point2D)  (1 usage found)
+                        991     * @since 9
+                    rangeShape(int, int)  (1 usage found)
+                        1038     * @since 9
+                    selectionFillProperty()  (1 usage found)
+                        911     * @since 9
+                    setCaretBias(boolean)  (1 usage found)
+                        966     * @since 9
+                    setCaretPosition(int)  (1 usage found)
+                        941     * @since 9
+                    setSelectionEnd(int)  (1 usage found)
+                        887     * @since 9
+                    setSelectionStart(int)  (1 usage found)
+                        862     * @since 9
+                    underlineShape(int, int)  (1 usage found)
+                        1050     * @since 9
+                TextFlow.java  (3 usages found)
+                    caretShape(int, boolean)  (1 usage found)
+                        210     * @since 9
+                    hitTest(Point2D)  (1 usage found)
+                        189     * @since 9
+                    rangeShape(int, int)  (1 usage found)
+                        222     * @since 9
+            javafx.scene.web  (1 usage found)
+                HTMLEditorSkin.java  (1 usage found)
+                    95 * @since 9
+            javafx.stage  (8 usages found)
+                Screen.java  (2 usages found)
+                    getOutputScaleX()  (1 usage found)
+                        294     * @since 9
+                    getOutputScaleY()  (1 usage found)
+                        314     * @since 9
+                Window.java  (6 usages found)
+                    getWindows()  (1 usage found)
+                        210     * @since 9
+                    388     * @since 9
+                    413     * @since 9
+                    440     * @since 9
+                    471     * @since 9
+                    501     * @since 9
+            javafx.util  (1 usage found)
+                FXPermission.java  (1 usage found)
+                    149 * @since 9
+            javax.accessibility  (1 usage found)
+                AccessibilityProvider.java  (1 usage found)
+                    46 * @since 9
+            javax.annotation.processing  (2 usages found)
+                RoundEnvironment.java  (2 usages found)
+                    getElementsAnnotatedWithAny(Set<Class<? extends Annotation>>)  (1 usage found)
+                        175     * @since 9
+                    getElementsAnnotatedWithAny(TypeElement...)  (1 usage found)
+                        120     * @since 9
+            javax.imageio.plugins.tiff  (12 usages found)
+                BaselineTIFFTagSet.java  (1 usage found)
+                    58 * @since 9
+                ExifGPSTagSet.java  (1 usage found)
+                    38 * @since 9
+                ExifInteroperabilityTagSet.java  (1 usage found)
+                    34 * @since 9
+                ExifParentTIFFTagSet.java  (1 usage found)
+                    37 * @since 9
+                ExifTIFFTagSet.java  (1 usage found)
+                    42 * @since 9
+                FaxTIFFTagSet.java  (1 usage found)
+                    34 * @since 9
+                GeoTIFFTagSet.java  (1 usage found)
+                    39 * @since 9
+                TIFFDirectory.java  (1 usage found)
+                    98 * @since 9
+                TIFFField.java  (1 usage found)
+                    260 * @since 9
+                TIFFImageReadParam.java  (1 usage found)
+                    53 * @since 9
+                TIFFTag.java  (1 usage found)
+                    43 * @since 9
+                TIFFTagSet.java  (1 usage found)
+                    46 * @since 9
+            javax.lang.model  (3 usages found)
+                SourceVersion.java  (3 usages found)
+                    isKeyword(CharSequence, SourceVersion)  (1 usage found)
+                        302     * @since 9
+                    isName(CharSequence, SourceVersion)  (1 usage found)
+                        264     * @since 9
+                    151     * @since 9
+            javax.lang.model.element  (10 usages found)
+                ElementKind.java  (1 usage found)
+                    101     * @since 9
+                ElementVisitor.java  (1 usage found)
+                    visitModule(ModuleElement, P)  (1 usage found)
+                        152     * @since 9
+                ModuleElement.java  (8 usages found)
+                    35 * @since 9
+                    96     * @since 9
+                    114     * @since 9
+                    128     * @since 9
+                    152     * @since 9
+                    173     * @since 9
+                    194     * @since 9
+                    212     * @since 9
+            javax.lang.model.type  (1 usage found)
+                TypeKind.java  (1 usage found)
+                    159     * @since 9
+            javax.lang.model.util  (25 usages found)
+                AbstractAnnotationValueVisitor9.java  (1 usage found)
+                    60 * @since 9
+                AbstractElementVisitor6.java  (1 usage found)
+                    visitModule(ModuleElement, P)  (1 usage found)
+                        138     * @since 9
+                AbstractElementVisitor9.java  (1 usage found)
+                    65 * @since 9
+                AbstractTypeVisitor9.java  (1 usage found)
+                    64 * @since 9
+                ElementFilter.java  (7 usages found)
+                    exportsIn(Iterable<? extends Directive>)  (1 usage found)
+                        247     * @since 9
+                    modulesIn(Iterable<? extends Element>)  (1 usage found)
+                        200     * @since 9
+                    modulesIn(Set<? extends Element>)  (1 usage found)
+                        211     * @since 9
+                    opensIn(Iterable<? extends Directive>)  (1 usage found)
+                        258     * @since 9
+                    providesIn(Iterable<? extends Directive>)  (1 usage found)
+                        269     * @since 9
+                    requiresIn(Iterable<? extends Directive>)  (1 usage found)
+                        280     * @since 9
+                    usesIn(Iterable<? extends Directive>)  (1 usage found)
+                        291     * @since 9
+                ElementKindVisitor9.java  (1 usage found)
+                    77 * @since 9
+                Elements.java  (9 usages found)
+                    getModuleElement(CharSequence)  (1 usage found)
+                        98     * @since 9
+                    getModuleOf(Element)  (1 usage found)
+                        338     * @since 9
+                    getOrigin(AnnotatedConstruct, AnnotationMirror)  (1 usage found)
+                        196     * @since 9
+                    getOrigin(Element)  (1 usage found)
+                        164     * @since 9
+                    getOrigin(ModuleElement, Directive)  (1 usage found)
+                        228     * @since 9
+                    getPackageElement(ModuleElement, CharSequence)  (1 usage found)
+                        65     * @since 9
+                    getTypeElement(ModuleElement, CharSequence)  (1 usage found)
+                        85     * @since 9
+                    isBridge(ExecutableElement)  (1 usage found)
+                        301     * @since 9
+                    245     * @since 9
+                ElementScanner9.java  (1 usage found)
+                    90 * @since 9
+                SimpleAnnotationValueVisitor9.java  (1 usage found)
+                    67 * @since 9
+                SimpleElementVisitor9.java  (1 usage found)
+                    73 * @since 9
+                TypeKindVisitor9.java  (1 usage found)
+                    75 * @since 9
+            javax.management  (1 usage found)
+                ConstructorParameters.java  (1 usage found)
+                    65 * @since 9
+            javax.security.auth.kerberos  (2 usages found)
+                EncryptionKey.java  (1 usage found)
+                    47 * @since 9
+                KerberosCredMessage.java  (1 usage found)
+                    48 * @since 9
+            javax.sql  (6 usages found)
+                CommonDataSource.java  (1 usage found)
+                    createShardingKeyBuilder()  (1 usage found)
+                        137     * @since 9
+                ConnectionPoolDataSource.java  (1 usage found)
+                    createPooledConnectionBuilder()  (1 usage found)
+                        112   * @since 9
+                DataSource.java  (1 usage found)
+                    createConnectionBuilder()  (1 usage found)
+                        149   * @since 9
+                PooledConnectionBuilder.java  (1 usage found)
+                    55 * @since 9
+                XAConnectionBuilder.java  (1 usage found)
+                    55 * @since 9
+                XADataSource.java  (1 usage found)
+                    createXAConnectionBuilder()  (1 usage found)
+                        121   * @since 9
+            javax.swing  (12 usages found)
+                InputVerifier.java  (2 usages found)
+                    shouldYieldFocus(JComponent, JComponent)  (1 usage found)
+                        173     * @since 9
+                    verifyTarget(JComponent)  (1 usage found)
+                        148     * @since 9
+                JComponent.java  (1 usage found)
+                    getUI()  (1 usage found)
+                        634     * @since 9
+                JList.java  (4 usages found)
+                    doAccessibleAction(int)  (1 usage found)
+                        3777             * @since 9
+                    getAccessibleAction()  (1 usage found)
+                        3755             * @since 9
+                    getAccessibleActionCount()  (1 usage found)
+                        3808             * @since 9
+                    getAccessibleActionDescription(int)  (1 usage found)
+                        3794             * @since 9
+                JToggleButton.java  (2 usages found)
+                    requestFocus(Cause)  (1 usage found)
+                        263     * @since 9
+                    requestFocusInWindow(Cause)  (1 usage found)
+                        291     * @since 9
+                SwingContainer.java  (1 usage found)
+                    48 * @since 9
+                UIClientPropertyKey.java  (1 usage found)
+                    38 * @since 9
+                UIManager.java  (1 usage found)
+                    createLookAndFeel(String)  (1 usage found)
+                        514     * @since 9
+            javax.swing.filechooser  (3 usages found)
+                FileSystemView.java  (3 usages found)
+                    getChooserComboBoxFiles()  (1 usage found)
+                        593     * @since 9
+                    getLinkLocation(File)  (1 usage found)
+                        634     * @since 9
+                    isLink(File)  (1 usage found)
+                        609     * @since 9
+            javax.swing.plaf  (3 usages found)
+                TextUI.java  (3 usages found)
+                    getToolTipText2D(JTextComponent, Point2D)  (1 usage found)
+                        262     * @since 9
+                    modelToView2D(JTextComponent, int, Bias)  (1 usage found)
+                        87     * @since 9
+                    viewToModel2D(JTextComponent, Point2D, Bias[])  (1 usage found)
+                        152     * @since 9
+            javax.swing.plaf.basic  (4 usages found)
+                BasicGraphicsUtils.java  (4 usages found)
+                    drawString(JComponent, Graphics2D, String, float, float)  (1 usage found)
+                        402     * @since 9
+                    drawStringUnderlineCharAt(JComponent, Graphics2D, String, int, float, float)  (1 usage found)
+                        437     * @since 9
+                    getClippedString(JComponent, FontMetrics, String, int)  (1 usage found)
+                        462     * @since 9
+                    getStringWidth(JComponent, FontMetrics, String)  (1 usage found)
+                        482     * @since 9
+            javax.swing.text  (17 usages found)
+                AbstractDocument.java  (2 usages found)
+                    lockEdit()  (1 usage found)
+                        3029         * @since 9
+                    unlockEdit()  (1 usage found)
+                        3038         * @since 9
+                JTextComponent.java  (2 usages found)
+                    modelToView2D(int)  (1 usage found)
+                        1401     * @since 9
+                    viewToModel2D(Point2D)  (1 usage found)
+                        1443     * @since 9
+                PasswordView.java  (1 usage found)
+                    drawEchoCharacter(Graphics2D, float, float, char)  (1 usage found)
+                        217     * @since 9
+                PlainView.java  (3 usages found)
+                    drawLine(int, Graphics2D, float, float)  (1 usage found)
+                        124     * @since 9
+                    drawSelectedText(Graphics2D, float, float, int, int)  (1 usage found)
+                        300     * @since 9
+                    drawUnselectedText(Graphics2D, float, float, int, int)  (1 usage found)
+                        230     * @since 9
+                Utilities.java  (6 usages found)
+                    drawTabbedText(Segment, float, float, Graphics2D, TabExpander, int)  (1 usage found)
+                        103     * @since 9
+                    getBreakLocation(Segment, FontMetrics, float, float, TabExpander, int)  (1 usage found)
+                        655     * @since 9
+                    getPositionAbove(JTextComponent, int, float)  (1 usage found)
+                        794     * @since 9
+                    getPositionBelow(JTextComponent, int, float)  (1 usage found)
+                        870     * @since 9
+                    getTabbedTextOffset(Segment, FontMetrics, float, float, TabExpander, int, boolean)  (1 usage found)
+                        449     * @since 9
+                    getTabbedTextWidth(Segment, FontMetrics, float, TabExpander, int)  (1 usage found)
+                        262     * @since 9
+                WrappedPlainView.java  (3 usages found)
+                    drawLine(int, int, Graphics2D, float, float)  (1 usage found)
+                        156     * @since 9
+                    drawSelectedText(Graphics2D, float, float, int, int)  (1 usage found)
+                        325     * @since 9
+                    drawUnselectedText(Graphics2D, float, float, int, int)  (1 usage found)
+                        257     * @since 9
+            javax.tools  (20 usages found)
+                FileManagerUtils.java  (1 usage found)
+                    35 * @since 9
+                JavaFileManager.java  (6 usages found)
+                    getLocationForModule(Location, JavaFileObject, String)  (1 usage found)
+                        501     * @since 9
+                    getLocationForModule(Location, String)  (1 usage found)
+                        474     * @since 9
+                    getServiceLoader(Location, Class<S>)  (1 usage found)
+                        524     * @since 9
+                    inferModuleName(Location)  (1 usage found)
+                        542     * @since 9
+                    isModuleOrientedLocation()  (1 usage found)
+                        167         * @since 9
+                    listLocationsForModules(Location)  (1 usage found)
+                        561     * @since 9
+                StandardJavaFileManager.java  (7 usages found)
+                    asPath(FileObject)  (1 usage found)
+                        367     * @since 9
+                    getJavaFileObjects(Path...)  (1 usage found)
+                        231     * @since 9
+                    getJavaFileObjectsFromPaths(Iterable<? extends Path>)  (1 usage found)
+                        192     * @since 9
+                    getLocationAsPaths(Location)  (1 usage found)
+                        345     * @since 9
+                    setLocationFromPaths(Location, Collection<? extends Path>)  (1 usage found)
+                        311     * @since 9
+                    setPathFactory(PathFactory)  (1 usage found)
+                        402      * @since 9
+                    376     * @since 9
+                StandardLocation.java  (5 usages found)
+                    67     * @since 9
+                    85     * @since 9
+                    91     * @since 9
+                    97     * @since 9
+                    103     * @since 9
+                Tool.java  (1 usage found)
+                    name()  (1 usage found)
+                        56     * @since 9
+            javax.xml  (1 usage found)
+                XMLConstants.java  (1 usage found)
+                    418         * @since 9
+            javax.xml.bind  (3 usages found)
+                JAXBContextFactory.java  (3 usages found)
+                    createContext(Class<?>[], Map<String, ?>)  (1 usage found)
+                        64     * @since 9, JAXB 2.3
+                    createContext(String, ClassLoader, Map<String, ?>)  (1 usage found)
+                        91     * @since 9, JAXB 2.3
+                    35 * @since 9, JAXB 2.3
+            javax.xml.catalog  (26 usages found)
+                AltCatalog.java  (1 usage found)
+                    34 * @since 9
+                BaseEntry.java  (1 usage found)
+                    35 * @since 9
+                Catalog.java  (1 usage found)
+                    62 * @since 9
+                CatalogEntry.java  (1 usage found)
+                    30 * @since 9
+                CatalogException.java  (1 usage found)
+                    31 * @since 9
+                CatalogFeatures.java  (1 usage found)
+                    351 * @since 9
+                CatalogImpl.java  (1 usage found)
+                    54 * @since 9
+                CatalogManager.java  (1 usage found)
+                    32 * @since 9
+                CatalogMessages.java  (1 usage found)
+                    36 * @since 9
+                CatalogReader.java  (1 usage found)
+                    44 * @since 9
+                CatalogResolver.java  (1 usage found)
+                    102 * @since 9
+                CatalogResolverImpl.java  (1 usage found)
+                    50 * @since 9
+                DelegatePublic.java  (1 usage found)
+                    32 * @since 9
+                DelegateSystem.java  (1 usage found)
+                    32 * @since 9
+                DelegateUri.java  (1 usage found)
+                    32 * @since 9
+                GroupEntry.java  (1 usage found)
+                    36 * @since 9
+                NextCatalog.java  (1 usage found)
+                    30 * @since 9
+                Normalizer.java  (1 usage found)
+                    38 * @since 9
+                PublicEntry.java  (1 usage found)
+                    32 * @since 9
+                RewriteSystem.java  (1 usage found)
+                    32 * @since 9
+                RewriteUri.java  (1 usage found)
+                    32 * @since 9
+                SystemEntry.java  (1 usage found)
+                    32 * @since 9
+                SystemSuffix.java  (1 usage found)
+                    32 * @since 9
+                UriEntry.java  (1 usage found)
+                    32 * @since 9
+                UriSuffix.java  (1 usage found)
+                    32 * @since 9
+                Util.java  (1 usage found)
+                    46 * @since 9
+            javax.xml.datatype  (1 usage found)
+                DatatypeFactory.java  (1 usage found)
+                    newDefaultInstance()  (1 usage found)
+                        147     * @since 9
+            javax.xml.parsers  (2 usages found)
+                DocumentBuilderFactory.java  (1 usage found)
+                    newDefaultInstance()  (1 usage found)
+                        64     * @since 9
+                SAXParserFactory.java  (1 usage found)
+                    newDefaultInstance()  (1 usage found)
+                        69     * @since 9
+            javax.xml.stream  (3 usages found)
+                XMLEventFactory.java  (1 usage found)
+                    newDefaultFactory()  (1 usage found)
+                        60   * @since 9
+                XMLInputFactory.java  (1 usage found)
+                    newDefaultFactory()  (1 usage found)
+                        151   * @since 9
+                XMLOutputFactory.java  (1 usage found)
+                    newDefaultFactory()  (1 usage found)
+                        128   * @since 9
+            javax.xml.transform  (1 usage found)
+                TransformerFactory.java  (1 usage found)
+                    newDefaultInstance()  (1 usage found)
+                        62     * @since 9
+            javax.xml.validation  (1 usage found)
+                SchemaFactory.java  (1 usage found)
+                    newDefaultInstance()  (1 usage found)
+                        139     * @since 9
+            javax.xml.xpath  (11 usages found)
+                XPath.java  (4 usages found)
+                    evaluateExpression(String, InputSource)  (1 usage found)
+                        491     * @since 9
+                    evaluateExpression(String, InputSource, Class<T>)  (1 usage found)
+                        450     * @since 9
+                    evaluateExpression(String, Object)  (1 usage found)
+                        404     * @since 9
+                    evaluateExpression(String, Object, Class<T>)  (1 usage found)
+                        356     * @since 9
+                XPathEvaluationResult.java  (1 usage found)
+                    40 * @since 9
+                XPathExpression.java  (4 usages found)
+                    evaluateExpression(InputSource)  (1 usage found)
+                        381     * @since 9
+                    evaluateExpression(InputSource, Class<T>)  (1 usage found)
+                        342     * @since 9
+                    evaluateExpression(Object)  (1 usage found)
+                        296     * @since 9
+                    evaluateExpression(Object, Class<T>)  (1 usage found)
+                        250     * @since 9
+                XPathFactory.java  (1 usage found)
+                    newDefaultInstance()  (1 usage found)
+                        91     * @since 9
+                XPathNodes.java  (1 usage found)
+                    36 * @since 9
+            jdk.awt  (1 usage found)
+                AWTUtils.java  (1 usage found)
+                    38 * @since 9
+            jdk.dynalink.beans  (1 usage found)
+                package-info.java  (1 usage found)
+                    86 * @since 9
+            jdk.dynalink.linker  (1 usage found)
+                package-info.java  (1 usage found)
+                    112 * @since 9
+            jdk.dynalink.linker.support  (1 usage found)
+                package-info.java  (1 usage found)
+                    90 * @since 9
+            jdk.dynalink.support  (1 usage found)
+                package-info.java  (1 usage found)
+                    88 * @since 9
+            jdk.incubator.http  (15 usages found)
+                HttpClient.java  (4 usages found)
+                    50 * @since 9
+                    89     * @since 9
+                    287     * @since 9
+                    311     * @since 9
+                HttpHeaders.java  (1 usage found)
+                    36 * @since 9
+                HttpRequest.java  (2 usages found)
+                    243 * @since 9
+                    269     * @since 9
+                HttpResponse.java  (2 usages found)
+                    78 * @since 9
+                    570     * @since 9
+                package-info.java  (1 usage found)
+                    57 * @since 9
+                WebSocket.java  (4 usages found)
+                    81 * @since 9
+                    123     * @since 9
+                    287     * @since 9
+                    577     * @since 9
+                WebSocketHandshakeException.java  (1 usage found)
+                    33 * @since 9
+            jdk.incubator.http.internal.hpack  (4 usages found)
+                Decoder.java  (1 usage found)
+                    59 * @since 9
+                DecodingCallback.java  (1 usage found)
+                    57 * @since 9
+                Encoder.java  (1 usage found)
+                    98 * @since 9
+                Huffman.java  (1 usage found)
+                    38 * @since 9
+            jdk.incubator.http.internal.websocket  (1 usage found)
+                RawChannel.java  (1 usage found)
+                    36 * @since 9
+            jdk.internal  (1 usage found)
+                HotSpotIntrinsicCandidate.java  (1 usage found)
+                    120 * @since 9
+            jdk.internal.loader  (1 usage found)
+                ClassLoaderValue.java  (1 usage found)
+                    75 * @since 9
+            jdk.internal.logger  (1 usage found)
+                package-info.java  (1 usage found)
+                    66 * @since 9
+            jdk.internal.misc  (5 usages found)
+                Unsafe.java  (5 usages found)
+                    copySwapMemory(Object, long, Object, long, long, long)  (1 usage found)
+                        838     * @since 9
+                    getLongUnaligned(Object, long)  (1 usage found)
+                        3368     * @since 9
+                    getLongUnaligned(Object, long, boolean)  (1 usage found)
+                        3402     * @since 9
+                    putLongUnaligned(Object, long, long)  (1 usage found)
+                        3485     * @since 9
+                    putLongUnaligned(Object, long, long, boolean)  (1 usage found)
+                        3523     * @since 9
+            jdk.internal.util  (3 usages found)
+                Preconditions.java  (3 usages found)
+                    checkFromIndexSize(int, int, int, BiFunction<String, List<Integer>, X>)  (1 usage found)
+                        337     * @since 9
+                    checkFromToIndex(int, int, int, BiFunction<String, List<Integer>, X>)  (1 usage found)
+                        289     * @since 9
+                    checkIndex(int, int, BiFunction<String, List<Integer>, X>)  (1 usage found)
+                        235     * @since 9
+            jdk.internal.util.jar  (2 usages found)
+                InvalidJarIndexError.java  (1 usage found)
+                    32 * @since 9
+                VersionedStream.java  (1 usage found)
+                    stream(JarFile)  (1 usage found)
+                        48     * @since 9
+            jdk.internal.vm.annotation  (1 usage found)
+                ReservedStackAccess.java  (1 usage found)
+                    48 * @since 9
+            jdk.javadoc.doclet  (4 usages found)
+                Doclet.java  (1 usage found)
+                    59 * @since 9
+                DocletEnvironment.java  (1 usage found)
+                    46 * @since 9
+                package-info.java  (1 usage found)
+                    317 * @since 9
+                Reporter.java  (1 usage found)
+                    36 * @since 9
+            jdk.javadoc.doclet.taglet  (2 usages found)
+                package-info.java  (1 usage found)
+                    35 * @since 9
+                Taglet.java  (1 usage found)
+                    40 * @since 9
+            jdk.javadoc.internal.tool  (1 usage found)
+                JavadocToolProvider.java  (1 usage found)
+                    35 * @since 9
+            jdk.nashorn.api.tree  (59 usages found)
+                ArrayAccessTree.java  (1 usage found)
+                    36 * @since 9
+                ArrayLiteralTree.java  (1 usage found)
+                    33 * @since 9
+                AssignmentTree.java  (1 usage found)
+                    36 * @since 9
+                BinaryTree.java  (1 usage found)
+                    37 * @since 9
+                BlockTree.java  (1 usage found)
+                    40 * @since 9
+                BreakTree.java  (1 usage found)
+                    38 * @since 9
+                CaseTree.java  (1 usage found)
+                    42 * @since 9
+                CatchTree.java  (1 usage found)
+                    37 * @since 9
+                ClassDeclarationTree.java  (1 usage found)
+                    32 * @since 9
+                ClassExpressionTree.java  (1 usage found)
+                    33 * @since 9
+                CompilationUnitTree.java  (1 usage found)
+                    34 * @since 9
+                CompoundAssignmentTree.java  (1 usage found)
+                    37 * @since 9
+                ConditionalExpressionTree.java  (1 usage found)
+                    36 * @since 9
+                ConditionalLoopTree.java  (1 usage found)
+                    31 * @since 9
+                ContinueTree.java  (1 usage found)
+                    37 * @since 9
+                DebuggerTree.java  (1 usage found)
+                    36 * @since 9
+                Diagnostic.java  (1 usage found)
+                    43 * @since 9
+                DiagnosticListener.java  (1 usage found)
+                    31 * @since 9
+                DoWhileLoopTree.java  (1 usage found)
+                    38 * @since 9
+                EmptyStatementTree.java  (1 usage found)
+                    36 * @since 9
+                ErroneousTree.java  (1 usage found)
+                    31 * @since 9
+                ExpressionStatementTree.java  (1 usage found)
+                    36 * @since 9
+                ExpressionTree.java  (1 usage found)
+                    32 * @since 9
+                ForInLoopTree.java  (1 usage found)
+                    37 * @since 9
+                ForLoopTree.java  (1 usage found)
+                    37 * @since 9
+                ForOfLoopTree.java  (1 usage found)
+                    37 * @since 9
+                FunctionCallTree.java  (1 usage found)
+                    40 * @since 9
+                FunctionDeclarationTree.java  (1 usage found)
+                    46 * @since 9
+                FunctionExpressionTree.java  (1 usage found)
+                    44 * @since 9
+                GotoTree.java  (1 usage found)
+                    34 * @since 9
+                IdentifierTree.java  (1 usage found)
+                    36 * @since 9
+                IfTree.java  (1 usage found)
+                    42 * @since 9
+                InstanceOfTree.java  (1 usage found)
+                    36 * @since 9
+                LabeledStatementTree.java  (1 usage found)
+                    36 * @since 9
+                LineMap.java  (1 usage found)
+                    32 * @since 9
+                LiteralTree.java  (1 usage found)
+                    37 * @since 9
+                LoopTree.java  (1 usage found)
+                    31 * @since 9
+                MemberSelectTree.java  (1 usage found)
+                    36 * @since 9
+                NewTree.java  (1 usage found)
+                    38 * @since 9
+                ObjectLiteralTree.java  (1 usage found)
+                    33 * @since 9
+                package-info.java  (1 usage found)
+                    71 * @since 9
+                ParenthesizedTree.java  (1 usage found)
+                    37 * @since 9
+                Parser.java  (1 usage found)
+                    39 * @since 9
+                PropertyTree.java  (1 usage found)
+                    31 * @since 9
+                RegExpLiteralTree.java  (1 usage found)
+                    31 * @since 9
+                ReturnTree.java  (1 usage found)
+                    37 * @since 9
+                StatementTree.java  (1 usage found)
+                    32 * @since 9
+                SwitchTree.java  (1 usage found)
+                    40 * @since 9
+                TemplateLiteralTree.java  (1 usage found)
+                    38 * @since 9
+                ThrowTree.java  (1 usage found)
+                    36 * @since 9
+                Tree.java  (1 usage found)
+                    34 * @since 9
+                TreeVisitor.java  (1 usage found)
+                    54 * @since 9
+                TryTree.java  (1 usage found)
+                    42 * @since 9
+                UnaryTree.java  (1 usage found)
+                    39 * @since 9
+                UnknownTreeException.java  (1 usage found)
+                    36 * @since 9
+                VariableTree.java  (1 usage found)
+                    37 * @since 9
+                WhileLoopTree.java  (1 usage found)
+                    37 * @since 9
+                WithTree.java  (1 usage found)
+                    37 * @since 9
+                YieldTree.java  (1 usage found)
+                    40 * @since 9
+            jdk.packager.services  (1 usage found)
+                UserJvmOptionsService.java  (1 usage found)
+                    40 * @since 9
+            jdk.security.jarsigner  (3 usages found)
+                JarSigner.java  (2 usages found)
+                    80 * @since 9
+                    88     * @since 9
+                JarSignerException.java  (1 usage found)
+                    31 * @since 9
+            org.w3c.dom  (1 usage found)
+                ElementTraversal.java  (1 usage found)
+                    55 * @since 9
+            org.w3c.dom.ranges  (3 usages found)
+                DocumentRange.java  (1 usage found)
+                    46 * @since 9, DOM Level 2
+                Range.java  (1 usage found)
+                    50 * @since 9, DOM Level 2
+                RangeException.java  (1 usage found)
+                    48 * @since 9, DOM Level 2
+            org.w3c.dom.traversal  (4 usages found)
+                DocumentTraversal.java  (1 usage found)
+                    56 * @since 9, DOM Level 2
+                NodeFilter.java  (1 usage found)
+                    62 * @since 9, DOM Level 2
+                NodeIterator.java  (1 usage found)
+                    58 * @since 9, DOM Level 2
+                TreeWalker.java  (1 usage found)
+                    63 * @since 9, DOM Level 2
+            sun.awt  (4 usages found)
+                ComponentFactory.java  (1 usage found)
+                    createTaskbarPeer(Taskbar)  (1 usage found)
+                        89     * @since 9
+                LightweightFrame.java  (3 usages found)
+                    getScaleFactorX()  (1 usage found)
+                        156     * @since 9
+                    getScaleFactorY()  (1 usage found)
+                        166     * @since 9
+                    notifyDisplayChanged(double, double)  (1 usage found)
+                        184     * @since 9
+            sun.awt.datatransfer  (1 usage found)
+                DesktopDatatransferServiceImpl.java  (1 usage found)
+                    42 * @since 9
+            sun.datatransfer  (2 usages found)
+                DataFlavorUtil.java  (1 usage found)
+                    58 * @since 9
+                DesktopDatatransferService.java  (1 usage found)
+                    38 * @since 9
+            sun.misc  (1 usage found)
+                Unsafe.java  (1 usage found)
+                    invokeCleaner(ByteBuffer)  (1 usage found)
+                        1242     * @since 9
+            sun.rmi.registry  (1 usage found)
+                RegistryImpl.java  (1 usage found)
+                    createRegistry(int)  (1 usage found)
+                        376     * @since 9
+            sun.security.provider  (1 usage found)
+                EntropySource.java  (1 usage found)
+                    31 * @since 9
+            sun.security.provider.certpath  (2 usages found)
+                ResponderId.java  (2 usages found)
+                    52 * @since 9
+                    61     * @since 9
+            sun.security.util  (1 usage found)
+                KeyStoreDelegator.java  (1 usage found)
+                    40 * @since 9
+            sun.swing  (1 usage found)
+                LightweightContent.java  (1 usage found)
+                    imageBufferReset(int[], int, int, int, int, int, double, ...)  (1 usage found)
+                        162     * @since 9
+            sun.swing.text  (1 usage found)
+                UndoableEditLockSupport.java  (1 usage found)
+                    31 * @since 9
+            sun.text.spi  (1 usage found)
+                JavaTimeDateTimePatternProvider.java  (1 usage found)
+                    getJavaTimeDateTimePattern(int, int, String, Locale)  (1 usage found)
+                        58     * @since 9
+            sun.util.logging.internal  (1 usage found)
+                package-info.java  (1 usage found)
+                    53 * @since 9
+    Usage in string constants  (7 usages found)
+        < 9-ea >  (7 usages found)
+            com.sun.tools.jdeps.resources  (7 usages found)
+                jdkinternals.java  (7 usages found)
+                    getContents()  (7 usages found)
+                        7{ "com.apple.eawt", "Use java.awt.Desktop and JEP 272 @since 9" },
+                        12{ "com.sun.org.apache.xml.internal.resolver", "Use javax.xml.catalog @since 9" },
+                        20{ "jdk.internal.ref.Cleaner", "Use java.lang.ref.PhantomReference @since 1.2 or java.lang.ref.Cleaner @since 9" },
+                        21{ "sun.awt.CausedFocusEvent", "Use java.awt.event.FocusEvent::getCause @since 9" },
+                        23{ "sun.font.FontUtilities", "See java.awt.Font.textRequiresLayout\t@since 9" },
+                        27{ "sun.misc.Cleaner", "Use java.lang.ref.PhantomReference @since 1.2 or java.lang.ref.Cleaner @since 9" },
+                        33{ "sun.reflect.Reflection", "Use java.lang.StackWalker @since 9" },
