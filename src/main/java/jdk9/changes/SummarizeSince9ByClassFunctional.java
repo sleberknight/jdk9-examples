@@ -42,7 +42,7 @@ public class SummarizeSince9ByClassFunctional {
      * @implNote Uses {@link StreamEx#groupRuns(BiPredicate)} from the StreamEx (Enhancing Java 8 Streams)
      * library ( found at https://github.com/amaembo/streamex ) in order to determine the package for each
      * class, since the file is organized in a hierarchical fashion with each package occurring only one time
-     * following by one to many classes within that package.
+     * followed by one to many classes within that package.
      */
     static void summarizeFunctional() {
         try {
