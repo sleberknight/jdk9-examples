@@ -5,7 +5,6 @@ import org.junit.Rule;
 import org.junit.Test;
 
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.time.Instant;
 import java.util.Optional;
@@ -28,7 +27,7 @@ public class ProcessesTest {
     public void testGetPid() throws IOException {
         ProcessBuilder builder = new ProcessBuilder("/bin/sleep", "5");
         Process proc = builder.start();
-        assertThat(proc.getPid()).isGreaterThan(0);
+        assertThat(proc.pid()).isGreaterThan(0);
     }
 
     @Test
@@ -40,17 +39,17 @@ public class ProcessesTest {
         softly.assertThat(info.command().orElse(null)).isEqualTo("/bin/sleep");
         softly.assertThat(info.commandLine().orElse(null)).isEqualTo("/bin/sleep 5");
         softly.assertThat(info.user().orElse(null)).isEqualTo(System.getProperty("user.name"));
-        softly.assertThat(info.startInstant().orElse(null)).isLessThanOrEqualTo(Instant.now());
+        softly.assertThat(info.startInstant().orElse(null)).isBeforeOrEqualTo(Instant.now());
     }
 
     @Test
     public void testGetProcessHandleForExistingProcess() throws IOException {
         ProcessBuilder builder = new ProcessBuilder("/bin/sleep", "5");
         Process proc = builder.start();
-        long pid = proc.getPid();
+        long pid = proc.pid();
 
         ProcessHandle handle = ProcessHandle.of(pid).orElseThrow(IllegalStateException::new);
-        softly.assertThat(handle.getPid()).isEqualTo(pid);
+        softly.assertThat(handle.pid()).isEqualTo(pid);
         softly.assertThat(handle.info().commandLine().orElse(null)).isEqualTo("/bin/sleep 5");
     }
 
@@ -60,7 +59,7 @@ public class ProcessesTest {
         builder.start();
 
         String sleep = ProcessHandle.allProcesses()
-                .map(handle -> handle.info().command().orElse(String.valueOf(handle.getPid())))
+                .map(handle -> handle.info().command().orElse(String.valueOf(handle.pid())))
                 .filter(cmd -> cmd.equals("/bin/sleep"))
                 .findFirst()
                 .orElse(null);
@@ -73,13 +72,13 @@ public class ProcessesTest {
         Process proc = builder.start();
         ProcessHandle parent = proc.toHandle().parent().orElse(null);
         assertThat(parent).isNotNull();
-        long currentPid = ProcessHandle.current().getPid();
-        assertThat(parent.getPid()).isEqualTo(currentPid);
+        long currentPid = ProcessHandle.current().pid();
+        assertThat(parent.pid()).isEqualTo(currentPid);
     }
 
     @Test
     public void testOnExit_ComparingIdenticalFiles_WhenIdentical()
-            throws ExecutionException, InterruptedException, IOException, TimeoutException, URISyntaxException {
+            throws ExecutionException, InterruptedException, IOException, TimeoutException {
 
         String file1 = filePathForResource("file1.txt");
         String file2 = filePathForResource("file2.txt");

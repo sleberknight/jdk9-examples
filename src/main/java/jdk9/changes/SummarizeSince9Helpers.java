@@ -9,15 +9,18 @@ import java.util.stream.Stream;
  */
 class SummarizeSince9Helpers {
 
-    static final String JDK9_SINCE9_REPORT_PATH = "etc/jdk9-since9-report.txt";
+    static final String JDK9_SINCE9_REPORT_PATH = "etc/jdk9ea-since9-report.txt";
 
-    private static final Pattern PACKAGE_PATTERN = Pattern.compile(" {12,12}[a-z].*");
+    static final String PACKAGE_PATTERN_REGEX = " {16,16}[a-z].*";
 
-    private static final Pattern CLASS_PATTERN = Pattern.compile(" {16,16}[A-Za-z\\-]+\\.java.*");
+    static final Pattern PACKAGE_PATTERN = Pattern.compile(PACKAGE_PATTERN_REGEX);
+
+    private static final String CLASS_PATTERN_REGEX = " {20,20}[A-Za-z\\-]+\\.java.*";
+
+    private static final Pattern CLASS_PATTERN = Pattern.compile(CLASS_PATTERN_REGEX);
 
     private SummarizeSince9Helpers() {
     }
-
 
     /**
      * Two adjacent lines in the file are in the same package if:

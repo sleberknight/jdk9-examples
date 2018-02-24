@@ -3,6 +3,10 @@ package jdk9.changes;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.stream.Stream;
+
+import static jdk9.changes.SummarizeSince9Helpers.JDK9_SINCE9_REPORT_PATH;
+import static jdk9.changes.SummarizeSince9Helpers.PACKAGE_PATTERN_REGEX;
 
 /**
  * Summarize the number of "@since 9" occurrences by package in the JDK 9 javadoc.
@@ -11,19 +15,19 @@ import java.nio.file.Paths;
  */
 public class SummarizeSince9ByPackage {
 
-    private static final String PACKAGE_PATTERN = " {12,12}[a-z].*";
-
     private SummarizeSince9ByPackage() {
     }
 
     public static void main(String[] args) throws IOException {
 
-        Files.lines(Paths.get("etc/jdk9-since9-report.txt"))
-                .filter(line -> line.matches(PACKAGE_PATTERN))
-                .map(String::trim)
-                .map(line -> line.replaceAll("[\\(|\\)]|( usage found)|( usages found)", ""))
-                .map(line -> line.replaceAll("  ", ","))
-                .forEach(System.out::println);
+        try (Stream<String> lines = Files.lines(Paths.get(JDK9_SINCE9_REPORT_PATH))) {
+            lines
+                    .filter(line -> line.matches(PACKAGE_PATTERN_REGEX))
+                    .map(String::trim)
+                    .map(line -> line.replaceAll("[\\(|\\)]|( usage found)|( usages found)", ""))
+                    .map(line -> line.replaceAll("  ", ","))
+                    .forEach(System.out::println);
+        }
     }
 
 }

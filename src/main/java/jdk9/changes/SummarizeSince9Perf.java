@@ -31,11 +31,14 @@ public class SummarizeSince9Perf {
             case 2:
                 measure(trials, SummarizeSince9ByClassFunctional::summarizeFunctional);
                 break;
+
+            default:
+                throw new IllegalArgumentException("Invalid style: " + style);
         }
     }
 
     private static int promptForTrials(BufferedReader reader) throws IOException {
-        System.out.printf("Enter number of trials [100]:");
+        System.out.print("Enter number of trials [100]:");
         String line = Strings.emptyToNull(reader.readLine());
         return isNull(line) ? 100 : Integer.parseInt(line);
     }

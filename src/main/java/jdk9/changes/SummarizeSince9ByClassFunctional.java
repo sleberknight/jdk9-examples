@@ -22,7 +22,7 @@ import static jdk9.changes.SummarizeSince9Helpers.isPackageLine;
  */
 public class SummarizeSince9ByClassFunctional {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         //
         // stream: P1, C1, P2, C2, C3, P4, C4, P5, C5, C6, P6...

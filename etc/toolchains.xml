@@ -9,7 +9,7 @@
             <vendor>oracle</vendor>
         </provides>
         <configuration>
-            <jdkHome>/Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/</jdkHome>
+            <jdkHome>/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/</jdkHome>
         </configuration>
     </toolchain>
     <toolchain>
@@ -19,7 +19,7 @@
             <vendor>oracle</vendor>
         </provides>
         <configuration>
-            <jdkHome>/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/</jdkHome>
+            <jdkHome>/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/</jdkHome>
         </configuration>
     </toolchain>
 </toolchains>
